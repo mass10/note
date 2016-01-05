@@ -42,7 +42,7 @@ Python のパッケージシステム pip をインストールする。
 # echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 ```
 
-##Python から Oracle に接続する
+#Python から Oracle に接続する
 
 cx_Oracle を利用する。
 
