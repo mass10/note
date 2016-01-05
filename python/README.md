@@ -1,4 +1,4 @@
-##easy_install
+#easy_install
 
 - CentOS 6.5
 
@@ -6,7 +6,7 @@
 # yum install python-setuptools
 ```
 
-##pip
+#pip
 
 - CentOS 6.5
 
@@ -16,7 +16,7 @@ Python のパッケージシステム pip をインストールする。
 # easy_install pip
 ```
 
-##pyenv
+#pyenv
 
 - CentOS 6.5
 
@@ -50,7 +50,7 @@ cx_Oracle を利用する。
 $ pip install cx_Oracle
 ```
 
-####トラブルシューティング
+###トラブルシューティング
 
 下記のような例外がスローされた場合には
 
