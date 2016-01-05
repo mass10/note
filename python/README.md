@@ -1,8 +1,14 @@
 ##easy_install
 
-####はじめに
+- CentOS 6.5
+
+```
+yum install python-setuptools
+```
 
 ##pip
+
+- CentOS 6.5
 
 Python のパッケージシステム pip をインストールする。
 
@@ -11,6 +17,8 @@ easy_install pip
 ```
 
 ##pyenv
+
+- CentOS 6.5
 
 最初に下記のパッケージをインストールしておくこと。
 
