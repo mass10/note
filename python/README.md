@@ -14,5 +14,6 @@ yum install gcc
 yum install gcc-c++
 yum install zlib-devel
 yum install readline-devel
+yum install bzip2-devel
 ```
 
