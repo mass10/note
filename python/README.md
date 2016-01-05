@@ -53,7 +53,7 @@ Python のパッケージシステム pip をインストールする。
 $ pip install cx_Oracle
 ```
 
-###トラブルシューティング
+###トラブルシューティング(libclntsh.so.11.1: cannot open shared object file: No such file or directory)
 
 下記のような例外がスローされた場合には
 
