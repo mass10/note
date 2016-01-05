@@ -12,9 +12,11 @@ xxxxxxxxxx
 
 ##pip
 
-###インストールする
+###pip をインストールする
 
 ```
 # easy_install pip
 ```
+
+
 
