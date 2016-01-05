@@ -54,9 +54,9 @@ $ pip install cx_Oracle
 
 下記のような例外がスローされた場合には
 
-> Traceback (most recent call last):
->   File "./test.py", line 4, in <module>
->     import cx_Oracle
+> Traceback (most recent call last):   
+>   File "./test.py", line 4, in <module>    
+>     import cx_Oracle   
 > ImportError: libclntsh.so.11.1: cannot open shared object file: No such file or directory
 
 libclntsh.so が無いらしい。libclntsh.so とはどこにあるのか調べてみると
@@ -67,8 +67,8 @@ libclntsh.so が無いらしい。libclntsh.so とはどこにあるのか調べ
 
 下記のような答えが返ってくるので
 
-> /u01/app/oracle/product/11.2.0/xe/lib/libclntsh.so
-> /u01/app/oracle/product/11.2.0/xe/lib/libclntsh.so.11.1
+> /u01/app/oracle/product/11.2.0/xe/lib/libclntsh.so    
+> /u01/app/oracle/product/11.2.0/xe/lib/libclntsh.so.11.1  
 
 パスを通す
 
