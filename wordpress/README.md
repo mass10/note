@@ -11,24 +11,20 @@
 
 ####データベースを作成する
 
-mysql コマンドを実行。
+mysql コマンドを起動してデータベースを作成します。
 
 ```
 # mysql
-```
-
-データベースを作成
-
-```
 mysql> create database wordpress_db;
-mysql> create user wordpress identified by 'wordpress';
-mysql> grant all privileges on wordpress_db.* to wordpress;
+mysql> create user 'wordpress'@'localhost' identified by 'wordpress';
+mysql> grant all privileges on wordpress_db.* to wordpress@localhost;
+mysql> quit
 ```
 
 
-##インストール
+##Wordpress をインストール
 
-インストールは、ファイルを配置するだけです。
+Wordpress 自体のインストールは、ファイルを配置するだけです。/var/www/html/wordpress とう位置に置いても、/var/www/html という位置に置いても構いません。
 
 ```
 cd /tmp
@@ -40,7 +36,7 @@ chown -R apache:apache /var/www/html/wordpress
 
 ##セットアップ
 
-ウェブブラウザで下記の URL を開きます。
+ウェブブラウザで下記の URL を開きます。あとは WordPress の指示に従って作業を進めてください。
 
 > http://example.com/wordpress
 
