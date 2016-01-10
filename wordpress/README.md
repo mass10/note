@@ -3,6 +3,7 @@
 ####その他のソフトウェアを準備する
 
 ```
+# yum install wget
 # yum install httpd
 # yum install mysql-server
 # yum install php
@@ -15,6 +16,7 @@ mysql コマンドを起動してデータベースを作成します。
 
 ```
 # mysql
+
 mysql> create database wordpress_db;
 mysql> create user 'wordpress'@'localhost' identified by 'wordpress';
 mysql> grant all privileges on wordpress_db.* to wordpress@localhost;
