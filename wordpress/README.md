@@ -1,3 +1,12 @@
+##はじめに
+
+EC2(AWS) + WordPress の導入手順メモです。
+
+##環境
+
+- AWS EC2 (Amazin Linux)
+- WordPress 4.4.1
+
 ##準備
 
 ####その他のソフトウェアを準備する
@@ -5,6 +14,7 @@
 ```
 # yum install wget
 # yum install httpd
+# yum install mod_ssl
 # yum install mysql-server
 # yum install php
 # yum install php-mysql
