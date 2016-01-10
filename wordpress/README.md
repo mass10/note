@@ -53,7 +53,20 @@ chown -R apache:apache /var/www/html/wordpress
 
 ##セットアップ
 
+####WordPress の初回セットアップ
+
 ウェブブラウザで下記の URL を開きます。あとは WordPress の指示に従って作業を進めてください。
 
 > http://example.com/wordpress
 
+####HTTPS を活かす
+
+```
+# vi /var/www/html/wordpress/wp-config.php
+```
+
+次の行を追記。下の方に「編集が必要なのはここまでです」という行があるので、それよりも手前(=上)に挿入する。
+
+```
+define('FORCE_SSL_ADMIN', true);
+```
