@@ -1,6 +1,6 @@
 ##はじめに
 
-CentOS 7 でポートを開ける作業の記録。    
+CentOS 7 でポートを開ける作業の記録。
 
 2014-08-25 作成
 
@@ -12,6 +12,11 @@ CentOS 7 でポートを開ける作業の記録。
 
 ```
 # firewall-cmd --list-all
+```
+
+![image](images/QS_20160207-145754.png)
+
+```
 # firewall-cmd --list-all-zones
 ```
 
