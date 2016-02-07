@@ -131,6 +131,8 @@ FirewallD is not running
 
 ```
 # systemctl disable firewalld
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Removed symlink /etc/systemd/system/basic.target.wants/firewalld.service.
 ```
 
 ##ポートを開ける
