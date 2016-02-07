@@ -12,18 +12,124 @@ CentOS 7 でポートを開ける作業の記録。
 
 ```
 # firewall-cmd --list-all
+public (default)
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
 ```
 
-![image](images/QS_20160207-145754.png)
 
 ```
 # firewall-cmd --list-all-zones
+block
+  interfaces:
+  sources:
+  services:
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  interfaces:
+  sources:
+  services:
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  masquerade: yes
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  interfaces:
+  sources:
+  services: dhcpv6-client ipp-client mdns samba-client ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  interfaces:
+  sources:
+  services: dhcpv6-client ipp-client mdns samba-client ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+public (default)
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+trusted
+  interfaces:
+  sources:
+  services:
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
+work
+  interfaces:
+  sources:
+  services: dhcpv6-client ipp-client ssh
+  ports:
+  masquerade: no
+  forward-ports:
+  icmp-blocks:
+  rich rules:
+
 ```
 
 ##ファイアウォールを止める
 
 ```
 # systemctl stop firewalld
+# firewall-cmd --list-all
+FirewallD is not running
+```
+
+##ファイアウォールを無効にする
+
+```
 # systemctl disable firewalld
 ```
 
