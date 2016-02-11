@@ -10,7 +10,7 @@ aws ec2 describe-instances
 - インスタンスタイプ: [t2.nano]
 
 ```
-aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キーの名前 --group セキュリティグループのID
+aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID
 ```
 
 ##S3 の名前を列挙する
