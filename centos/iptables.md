@@ -1,6 +1,6 @@
 ##現在の設定を表示する
 
-netfilter では “現在のチェインを表示する” と言うっぽい。
+iptables では “現在のチェインを表示する” と言うっぽい。
 
 リスト
 
@@ -16,7 +16,7 @@ netfilter では “現在のチェインを表示する” と言うっぽい�
 
 ##ポートを開く
 
-8080番への着信を許可する。netfilter では “チェイン INPUT に新しいルールを追加する” と言うっぽい。
+8080番への着信を許可する。iptables では “チェイン INPUT に新しいルールを追加する” と言う。
 
 --list --line-numbers で挿入(したい)位置を確認してから
 
@@ -30,7 +30,7 @@ netfilter では “現在のチェインを表示する” と言うっぽい�
 
 ##開けたポートを閉じる
 
-netfilter では “チェイン INPUT のルールを削除する” と言うっぽい。
+iptables では “チェイン INPUT のルールを削除する” と言う。
 
 INPUT Chain の13番を削除
 
@@ -50,7 +50,7 @@ INPUT Chain の13番を削除
 
 INPUT Chain の REJECT の直前にルールを挿入
 
-    # iptables --insert INPUT 位置 --protocol tcp --jump LOG --log-prefix "[Netfilter blocked]: "
+    # iptables --insert INPUT 位置 --protocol tcp --jump LOG --log-prefix "[iptables blocked]: "
     
 永続化
 
