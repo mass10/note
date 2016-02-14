@@ -8,10 +8,9 @@
 
 ```
 # yum install wget
-# yum install httpd
-# yum install mysql-server
-# yum install php
-# yum install php-mysql
+# yum install httpd mod_ssl
+# yum install mysql mysql-server
+# yum install httpd php php-mysql
 ```
 
 ####必要なサービスを起動する
@@ -28,11 +27,6 @@
 ####データベースを作成する
 
 mysql コマンドを起動してデータベースを作成します。
-
-
-
-
-
 
 ```
 # mysql
