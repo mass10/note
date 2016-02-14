@@ -40,7 +40,7 @@ mysql> quit
 ログインできることを確認する
 
 ```
-mysql -u wordpress -h localhost wordpress_db -p
+# mysql -u wordpress -h localhost wordpress_db -p
 ```
 
 
@@ -54,11 +54,11 @@ mysql -u wordpress -h localhost wordpress_db -p
 Wordpress 自体のインストールは、ファイルを配置するだけです。/var/www/html/wordpress という位置に置いても、/var/www/html という位置に置いても構いません。
 
 ```
-cd /tmp
-wget https://ja.wordpress.org/wordpress-4.4-ja.tar.gz
-tar xvf wordpress-4.4-ja.tar.gz
-mv wordpress/* /var/www/html/
-chown -R apache:apache /var/www/html
+# cd /tmp
+# wget https://ja.wordpress.org/wordpress-4.4-ja.tar.gz
+# tar xvf wordpress-4.4-ja.tar.gz
+# mv wordpress/* /var/www/html/
+# chown -R apache:apache /var/www/html
 ```
 
 
@@ -75,7 +75,7 @@ chown -R apache:apache /var/www/html
 ##管理コンテンツを SSL アクセスにリダイレクトする
 
 ```
-vi /var/www/html/wp-config.php
+# vi /var/www/html/wp-config.php
 ```
 
 > define('FORCE_SSL_ADMIN', true);
