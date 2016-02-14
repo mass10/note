@@ -18,6 +18,8 @@ aws ec2 describe-instances
 aws ec2 run-instances help
 aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID
 aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID --user-data file://setup.sh
+
+aws ec2 terminate-instances --instance-ids i-5203422c
 ```
 
 
