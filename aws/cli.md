@@ -89,7 +89,21 @@ aws ec2 terminate-instances --instance-ids インスタンスID
 
 ##aws s3
 
+####バケットの状況を表示する
+
 ```
 aws s3 ls
 ```
 
+####ファイルを置く
+
+```
+aws s3 cp myfolder s3://mybucket/myfolder --recursive
+```
+
+
+####ディレクトリ内容の同期
+
+```
+aws s3 sync myfolder s3://mybucket/myfolder
+```
