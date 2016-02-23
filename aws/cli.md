@@ -26,23 +26,29 @@ aws configure
 aws ec2 help
 ```
 
+####AZ(=AVAILABILITY ZONE) を列挙する
 
 ```
 aws ec2 describe-availability-zones
 aws ec2 describe-availability-zones --region us-east-1
 aws ec2 describe-availability-zones --region ap-northeast-1
+```
 
+####インスタンスの状態を照会
+
+```
 aws ec2 describe-instances
+```
 
+####使用方法
+
+```
 aws ec2 run-instances help
 ```
 
 
 
-
-
-
-##### Amazon Linux のインスタンスを作成する
+####Amazon Linux のインスタンスを作成する
 
 - ami-383c1956: Amazon Linux AMI 2015.09.1 (HVM), SSD Volume Type
 
@@ -51,6 +57,15 @@ aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キ�
 aws ec2 run-instances --image-id ami-383c1956 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID --user-data file://setup.sh
 ```
 
+
+####Red Hat Enterprise Linux のインスタンスを作成する
+
+- ami-0dd8f963: Red Hat Enterprise Linux 7.2 (HVM), SSD Volume Type
+
+```
+aws ec2 run-instances --image-id ami-0dd8f963 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID
+aws ec2 run-instances --image-id ami-0dd8f963 --instance-type t2.nano --key キーの名前 --security-group-ids セキュリティグループのID --user-data file://setup.sh
+```
 
 ####インスタンスを reboot する
 
