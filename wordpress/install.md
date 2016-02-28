@@ -80,3 +80,9 @@ Wordpress 自体のインストールは、ファイルを配置するだけで�
 
 > define('FORCE_SSL_ADMIN', true);
 
+
+##ポイント
+
+-WordPress のルートは apache:apache にしておいた方がよい？ (wp-config.php などを WordPress 自身が書き換える場合に、そのディレクトリへの w権限が無いと失敗する)
+
+
