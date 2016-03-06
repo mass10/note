@@ -1,7 +1,20 @@
-##static ip address
+##updating system.
 
 ```
-vim /etc/network/interfaces
+# apt-get update
+```
+
+
+##enabling service.
+
+```
+# systemctl enable ssh
+```
+
+##setting static ip address.
+
+```
+# vim /etc/network/interfaces
 ```
 
 for example.
