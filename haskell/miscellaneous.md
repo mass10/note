@@ -11,9 +11,13 @@ ghc --version
 
 ##対話環境 REPL(=Read Eval Print Loop)
 
+#####起動
+
 ```
 ghci
 ```
+
+#####終了
 
 ```
 :q
