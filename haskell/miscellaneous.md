@@ -9,15 +9,19 @@ ghc --version
 
 
 
-####対話環境 REPL(=Read Eval Print Loop)
+##対話環境 REPL(=Read Eval Print Loop)
 
 ```
 ghci
 ```
 
+```
+:q
+```
 
 
 ##簡単な式の評価
+
 ####数値
 
 ```
@@ -147,6 +151,15 @@ Hello Real World!
 
 
 
+##Cabal でパッケージを検索する
 
+```
+# cabal list mongodb
+```
 
+##Cabal でパッケージをインストールする
 
+```
+# cabal update
+# cabal install relational-record
+```
