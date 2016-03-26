@@ -1,5 +1,6 @@
 #Haskell いろいろメモ
 
+##環境
 
 #####version
 
@@ -7,6 +8,18 @@
 ghc --version
 ```
 
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ##対話環境 REPL(=Read Eval Print Loop)
@@ -23,6 +36,19 @@ ghci
 :q
 ```
 
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ##簡単な式の評価
 
@@ -115,6 +141,12 @@ Prelude> Data.List.sort "kJuyHsyTqSX"
 "HJSTXkqsuyy"
 ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ##コンパイル
 
 バイナリはかなり大きくなる...
@@ -145,6 +177,11 @@ $ ./hello
 Hello Real World!
 ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ##ポイント
 
@@ -153,6 +190,11 @@ Hello Real World!
 - 型推論: 型をいちいち書かなくてもコンパイラが適切に推測してくれること
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ##Cabal でパッケージを検索する
@@ -160,6 +202,12 @@ Hello Real World!
 ```
 # cabal list mongodb
 ```
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ##Cabal でパッケージをインストールする
 
