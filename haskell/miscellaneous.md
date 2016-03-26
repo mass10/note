@@ -1,8 +1,8 @@
-#Haskell いろいろメモ
+# Haskell いろいろメモ
 
-##環境
+## 環境
 
-#####version
+###### version
 
 ```
 ghc --version
@@ -24,13 +24,13 @@ ghc --version
 
 ##対話環境 REPL(=Read Eval Print Loop)
 
-#####起動
+######起動
 
 ```
 ghci
 ```
 
-#####終了
+######終了
 
 ```
 :q
@@ -52,7 +52,7 @@ ghci
 
 ##簡単な式の評価
 
-#####数値
+######数値
 
 ```
 Prelude> 1
@@ -61,35 +61,35 @@ Prelude> 99999
 99999
 ```
 
-#####加算
+######加算
 
 ```
 Prelude> 1 + 10
 11
 ```
 
-#####乗算
+######乗算
 ```
 Prelude> 5 * 5
 25
 ```
-#####べき乗
+######べき乗
 ```
 Prelude> 1 ^ 10
 1024
 ```
-#####文字
+######文字
 ```
 Prelude> 'c'
 'c'
 ```
-#####文字列
+######文字列
 ```
 Prelude> "hello real world"
 "hello real world"
 ```
 
-#####関数
+######関数
 ```
 Prelude> let fun x = x ^ x
 Prelude> fun 3
@@ -97,19 +97,19 @@ Prelude> fun 3
 ```
 
 
-#####関数リテラル(ラムダ式)
+######関数リテラル(ラムダ式)
 ```
 Prelude> (\x -> x ^ x) 3
 27
 ```
 
-#####リスト
+######リスト
 ```
 Prelude> [1, 2, 3, 4, 5]
 [1,2,3,4,5]
 ```
 
-#####有限リスト
+######有限リスト
 ```
 Prelude> [1..5]
 [1,2,3,4,5]
@@ -117,23 +117,23 @@ Prelude> ['a' .. 'z']
 "abcdefghijklmnopqrstuvwxyz"
 ```
 
-#####無限リスト
+######無限リスト
 ```
 Prelude> [1..]
 ```
 
-#####タプル
+######タプル
 ```
 Prelude> (1, -100, 'a', "kkkkkkk")
 (1,-100,'a',"kkkkkkk")
 ```
 
-#####関数
+######関数
 ```
 Prelude> let bi x = x * 2
 Prelude> map bi [-5, 1, 50, 100]
 ```
-#####リストのソート
+######リストのソート
 ```
 Prelude> Data.List.sort [42, -1092, 13, 22]
 [-1092,13,22,42]
@@ -196,20 +196,14 @@ Hello Real World!
 <br>
 <br>
 
-
-##Cabal でパッケージを検索する
+## Cabal(カバル)
+######Cabal でパッケージを検索する
 
 ```
 # cabal list mongodb
 ```
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-##Cabal でパッケージをインストールする
+######Cabal でパッケージをインストールする
 
 ```
 # cabal update
