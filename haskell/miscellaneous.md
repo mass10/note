@@ -226,12 +226,12 @@ Hello Real World!
 ##Haskell を書くときに見たいところ
 
 
-##### School of Haskell
+###### School of Haskell
 https://www.schoolofhaskell.com/
 
-##### A Gentle Introduction to Haskell Version 98
+###### A Gentle Introduction to Haskell Version 98
 https://www.haskell.org/tutorial/
 
-##### Haskell by Example
+###### Haskell by Example
 https://lotz84.github.io/haskellbyexample/
 
