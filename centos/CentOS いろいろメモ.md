@@ -89,3 +89,12 @@ Samba は必ずと言っていいほど入れる
 ```
 
 `SELinux=permissive` に変更する
+
+
+##IPアドレスを追加する(一時的、揮発性)
+
+```
+# ip address add 192.168.141.180/24 dev eth0
+# ip address
+```
+
