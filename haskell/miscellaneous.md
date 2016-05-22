@@ -117,23 +117,23 @@ Prelude> ['a' .. 'z']
 "abcdefghijklmnopqrstuvwxyz"
 ```
 
-######無限リスト
+###### 無限リスト
 ```
 Prelude> [1..]
 ```
 
-######タプル
+###### タプル
 ```
 Prelude> (1, -100, 'a', "kkkkkkk")
 (1,-100,'a',"kkkkkkk")
 ```
 
-######関数
+###### 関数
 ```
 Prelude> let bi x = x * 2
 Prelude> map bi [-5, 1, 50, 100]
 ```
-######リストのソート
+###### リストのソート
 ```
 Prelude> Data.List.sort [42, -1092, 13, 22]
 [-1092,13,22,42]
@@ -196,14 +196,28 @@ Hello Real World!
 <br>
 <br>
 
+
+
+
+
+
+
+
+
 ## Cabal(カバル)
-######Cabal でパッケージを検索する
+
+###### Cabal でパッケージを検索する
 
 ```
 # cabal list mongodb
 ```
 
-######Cabal でパッケージをインストールする
+
+
+
+###### Cabal でパッケージをインストールする
+
+↓root のプライベートな空間にインストールする場合。こうして入れたパッケージは通常、他の os ユーザーからは見えない。
 
 ```
 # cabal update
@@ -211,11 +225,49 @@ Hello Real World!
 ```
 
 
+
+
+↓グローバルな空間にインストールする場合。こうして入れたパッケージは、全ての os ユーザーから見える。
+
+```
+# cabal install relational-record --global
+```
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 <br>
 <br>
 <br>
+
+
+
+
+
+
+##ghc-pkg
+
+
+######パッケージの詳細を表示する。これはグローバルな空間のパッケージを見たい場合。
+
+```
+# ghc-pkg describe HDBC --global
+```
+
+
+
+
+
 
 ##Haskell を書くときに見たいところ
 
@@ -228,4 +280,7 @@ https://www.haskell.org/tutorial/
 
 ###### Haskell by Example
 https://lotz84.github.io/haskellbyexample/
+
+
+
 
