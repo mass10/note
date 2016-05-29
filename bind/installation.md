@@ -118,7 +118,7 @@ named.conf の設定をテストします。
 
 ※作成中
 
-```/etc/named.conf``` を編集します。
+`/etc/named.conf` を編集します。
 
 ```
 zone "example.jp" IN {
@@ -169,9 +169,9 @@ named が起動していることを確認します。
 
     # netstat -ntlp
 
-netfilter がポートをブロックしていないことを確認します。
+iptables がポートをブロックしていないことを確認します。
 
-    # iptables --list -nvx --line-numbers
+    # service iptables status
 
 他のコンピューターから telnet してみます。
 
