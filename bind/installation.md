@@ -118,7 +118,8 @@ named.conf の設定をテストします。
 
 ※作成中
 
-[/etc/named.conf] を編集します。
+```/etc/named.conf``` を編集します。
+
 ```
 zone "example.jp" IN {
     type master;
@@ -126,7 +127,7 @@ zone "example.jp" IN {
 };
 ```
 
-[/etc/named/example.jp.zone] を編集します。無ければ作成します。
+`/etc/named/example.jp.zone` を編集します。無ければ作成します。
 
 ```
 ;
