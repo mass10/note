@@ -1,4 +1,4 @@
-##cabal
+##cabal install HDBC-mysql でエラー
 
 `2016-03-13`
 
@@ -26,7 +26,7 @@ HDBC-mysql-0.6.6.1 failed during the configure step. The exception was:
 ExitFailure 1
 
 $ which mysql_config
-(not foud)
+(not found)
 
 $ su - root
 
