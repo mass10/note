@@ -12,3 +12,10 @@ gcloud compute instances create example-instance --machine-type f1-micro --image
 
 gcloud compute instances delete example-instance
 ```
+
+
+##インスタンス一覧
+
+```
+gcloud compute instances list
+```
