@@ -34,7 +34,7 @@ gcloud compute regions list
 
 
 
-#####ゾーン一覧を見る
+####ゾーン一覧を見る
 
 ```
 gcloud compute zones list
@@ -44,7 +44,7 @@ gcloud compute zones list
 
 
 
-#####OS のイメージ一覧を見る
+####OS のイメージ一覧を見る
 
 ```
 gcloud compute images list
@@ -55,7 +55,7 @@ gcloud compute images list
 
 
 
-#####Compute Engine のインスタンスを作成する
+####Compute Engine のインスタンスを作成する
 
 新しいインスタンスを作成する
 
@@ -79,7 +79,7 @@ gcloud compute instances create new-instance-name --machine-type f1-micro --imag
 
 
 
-#####インスタンスを破棄する
+####インスタンスを破棄する
 
 ```
 gcloud compute instances delete example-instance
@@ -99,7 +99,7 @@ gcloud compute instances delete example-instance
 
 
 
-#####インスタンス一覧
+####インスタンス一覧
 
 ```
 gcloud compute instances list
