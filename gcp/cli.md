@@ -7,7 +7,7 @@
 
 
 
-#####セットアップ
+####セットアップ
 
 ```
 gcloud init
@@ -20,7 +20,7 @@ gcloud init
 
 
 
-#####リージョン一覧を見る
+####リージョン一覧を見る
 
 ```
 gcloud compute regions list
