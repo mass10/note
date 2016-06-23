@@ -27,7 +27,7 @@ http://127.0.0.1:7474
 ######一切の関係を持たないノードを作成します。6人の Person ということにします。Person というのはノードに付けられたラベルです。
 ```
 CREATE (ee:Person {name: "Taa", from: "Japan"})
-CREATE (ee:Person {name: "Caa", from: "Guatemala"})
+CREATE (ee:Person {name: "Caa", from: "China"})
 CREATE (ee:Person {name: "Zaa", from: "Japan"})
 CREATE (ee:Person {name: "Laa", from: "Indonesia"})
 CREATE (ee:Person {name: "Coo", from: "Vietnam"})
