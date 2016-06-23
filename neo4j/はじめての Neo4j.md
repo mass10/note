@@ -11,7 +11,7 @@
 ##ハンズオン
 
 ######管理コンソール
-http://192.168.141.152:7474
+http://127.0.0.1:7474
 
 ######画面をクリア
 ```
@@ -26,66 +26,66 @@ http://192.168.141.152:7474
 
 ######一切の関係を持たないノードを作成します。6人の Person ということにします。Person というのはノードに付けられたラベルです。
 ```
-CREATE (ee:Person {name: "Taro", from: "Japan"})
-CREATE (ee:Person {name: "Cacao", from: "Guatemala"})
-CREATE (ee:Person {name: "Takashi", from: "Japan"})
-CREATE (ee:Person {name: "Lalah", from: "United States"})
-CREATE (ee:Person {name: "Colin", from: "France"})
-CREATE (ee:Person {name: "Mio", from: "Canada"})
+CREATE (ee:Person {name: "Taa", from: "Japan"})
+CREATE (ee:Person {name: "Caa", from: "Guatemala"})
+CREATE (ee:Person {name: "Zaa", from: "Japan"})
+CREATE (ee:Person {name: "Laa", from: "Indonesia"})
+CREATE (ee:Person {name: "Coo", from: "Vietnam"})
+CREATE (ee:Person {name: "Mee", from: "Malaysia"})
 ```
 
 ######ノードと関係を構築します。
 ```
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Lalah"
+	WHERE left.name = "Caa" AND right.name = "Laa"
 	CREATE (left)-[:KNOWS]->(right)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Lalah"
+	WHERE left.name = "Caa" AND right.name = "Laa"
 	CREATE (right)-[:KNOWS]->(left)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Takashi"
+	WHERE left.name = "Caa" AND right.name = "Zaa"
 	CREATE (left)-[:KNOWS]->(right)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Takashi"
+	WHERE left.name = "Caa" AND right.name = "Zaa"
 	CREATE (right)-[:KNOWS]->(left)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Mio"
+	WHERE left.name = "Caa" AND right.name = "Mee"
 	CREATE (left)-[:KNOWS]->(right)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Cacao" AND right.name = "Mio"
+	WHERE left.name = "Caa" AND right.name = "Mee"
 	CREATE (right)-[:KNOWS]->(left)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Lalah" AND right.name = "Mio"
+	WHERE left.name = "Laa" AND right.name = "Mee"
 	CREATE (left)-[:KNOWS]->(right)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Mio" AND right.name = "Takashi"
+	WHERE left.name = "Mee" AND right.name = "Zaa"
 	CREATE (left)-[:KNOWS]->(right)
 MATCH (left:Person), (right:Person)
-	WHERE left.name = "Takashi" AND right.name = "Mio"
+	WHERE left.name = "Zaa" AND right.name = "Mee"
 	CREATE (left)-[:KNOWS]->(right)
 ```
 
 ######ノードを削除します。ただしすべての関係を断ち切らないと削除することはできません。
 ```
 MATCH (a:Person)
-	WHERE a.name = "Cacao"
+	WHERE a.name = "Caa"
 	DELETE a
 ```
 
-######Taro さんには消えてもらいます。
+######Taa さんには消えてもらいます。
 ```
 MATCH (a:Person)
-	WHERE a.name = "Taro"
+	WHERE a.name = "Taa"
 	DELETE a
 ```
 
-######Coline さんに知り合いができました
+######Coo さんに知り合いができました
 ```
 MATCH (a:Person), (b:Person)
-	WHERE a.name = "Coline" AND b.name = "Mio"
+	WHERE a.name = "Coo" AND b.name = "Mee"
 	CREATE (a)-[:KNOWS]->(b)
 MATCH (a:Person), (b:Person)
-	WHERE a.name = "Coline" AND b.name = "Mio"
+	WHERE a.name = "Coo" AND b.name = "Mee"
 	CREATE (b)-[:KNOWS]->(a)
 ```
 
@@ -94,10 +94,10 @@ MATCH (a:Person), (b:Person)
 MATCH (a:Person) RETURN a LIMIT 999
 ```
 
-######United States 出身の Person を抽出
+######Indonesia 出身の Person を抽出
 ```
 MATCH (left:Person)
-	WHERE left.from = 'United States'
+	WHERE left.from = 'Indonesia'
 	RETURN left
 ```
 
@@ -129,17 +129,17 @@ MATCH (n)-[r]->()
 	DELETE r
 ```
 
-######Cacao さんから他のノードに向いたすべての関係を断ちます。
+######Caa さんから他のノードに向いたすべての関係を断ちます。
 ```
 MATCH (n)-[r]->()
-	WHERE n.name = 'Cacao'
+	WHERE n.name = 'Caa'
 	DELETE r
 ```
 
-######Cacao さんを知っている Person を全て抽出します。
+######Caa さんを知っている Person を全て抽出します。
 
 ```
 MATCH (left:Person)-[:KNOWS]->(right:Person)
-	WHERE right.name = 'Cacao'
+	WHERE right.name = 'Caa'
 	RETURN left
 ```
