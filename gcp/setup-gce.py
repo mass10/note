@@ -9,11 +9,14 @@ import uuid
 
 def _main():
 
-	new_name = uuid.uuid1()
+	new_name = uuid.uuid4()
 	new_name = str(new_name)
 
+	path_to_gcloud = 'gcloud'
+	path_to_gcloud = 'C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd'
+
 	command = [
-		'gcloud', 'compute', 'instances', 'create', new_name,
+		path_to_gcloud, 'compute', 'instances', 'create', new_name,
 		'--machine-type', 'f1-micro',
 		'--image', 'centos-6',
 		'--zone', 'asia-east1-a',
@@ -23,7 +26,7 @@ def _main():
 
 	stream = subprocess.Popen(
 		command,
-		shell = True,
+		shell = False,
 		stderr = subprocess.STDOUT,
 		stdout = subprocess.PIPE).stdout
 	response = stream.read()
