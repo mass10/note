@@ -284,3 +284,56 @@ https://lotz84.github.io/haskellbyexample/
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#Stack
+
+##概要
+
+- Cabal の依存性地獄を解決すべく開発されている
+
+##GETTING STARTED
+
+- at Ubuntu 16.04.1 LTS
+
+```
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 575159689BEFB442
+$ echo 'deb http://download.fpcomplete.com/ubuntu xenial main'|sudo tee /etc/apt/sources.list.d/fpco.list
+$ sudo apt-get update
+$ sudo apt-get install stack -y
+```
+
+##プロジェクトをはじめる
+
+```
+$ stack new my-project
+$ cd my-project
+$ stack setup
+$ stack build
+```
+
+##成果物を実行する
+
+```
+$ stack exec my-project-exe
+```
+
+##GHCi
+
+```
+$ stack ghci
+```
+
+##runghc
+
+```
+$ stack runghc app/Main.hs
+```
