@@ -5,7 +5,7 @@
 2016-08-11 追記: pip で入らなくなっている。
 
 ```
-# ~pip install mysql-connector-python~
+# pip install mysql-connector-python
 ```
 
 ####2016-08-11 yum 経由になっているぽい？？
