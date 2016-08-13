@@ -12,6 +12,8 @@
 
 - ```/etc/httpd/conf/httpd.conf``` に ```Include conf.d/*.conf``` の記述があること。
 
+```/etc/httpd/conf.d``` に新しいファイルを追加して
+
 ```
 vim /etc/httpd/conf.d/example.conf
 ```
