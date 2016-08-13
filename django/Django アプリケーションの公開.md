@@ -8,28 +8,12 @@
 
 - Django アプリケーションが作成済みである。
 
-##~~wsgi.py にアプリケーションパスを追加~~
-
-~~下記のファイルを開く~~
-
-```
-~~vim /PATH/TO/PROJECT-ROOT/PROJECT/wsgi.py~~
-```
-
-~~下記を追記~~
-
-~~**これが本当に一般的な方法か検証中です。[WSGIPythonPath] が機能していないような** → 消した...~~
-
-```
-# ~~import sys~~
-# ~~sys.path.append('/PATH/TO/PROJECT-ROOT')~~
-```
-
-
 ##httpd との連携
 
+- ```/etc/httpd/conf/httpd.conf``` に ```Include conf.d/*.conf``` の記述があること。
+
 ```
-vim /etc/httpd/conf/httpd.conf
+vim /etc/httpd/conf.d/example.conf
 ```
 
 下記を追加
