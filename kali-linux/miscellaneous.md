@@ -95,7 +95,7 @@ mask 255.255.255.0
 gateway 192.168.141.2
 ```
 
-##start/stop service
+##starting/stoping service
 
 ````
 # systemctl start ssh
