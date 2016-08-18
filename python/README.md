@@ -18,9 +18,7 @@ Python のパッケージシステム pip をインストールする。
 # easy_install pip
 ```
 
-#pyenv
-
-- CentOS 6.5
+#pyenv をセットアップする
 
 最初に下記のパッケージをインストールしておくこと。
 
@@ -58,6 +56,11 @@ Python のパッケージシステム pip をインストールする。
 # echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 # echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 ```
+
+<br>
+<br>
+<br>
+<br>
 
 #Python から Oracle に接続する(cx_Oracle の場合)
 
