@@ -2,21 +2,26 @@
 
 ```
 # apt-get update
+# apt-get upgrade
 ```
 
 ##show services.
 
 ```
 # systemctl -t service
+# systemctl -t service --all
 ```
 
 ##show status of service.
 
 ```
 # systemctl is-enabled ssh
+# systemctl is-enabled apache2
 ```
 
 ##show status of services.
+
+- CentOS とかの chkconfig に相当
 
 ```
 # sysv-rc-conf --list
@@ -61,6 +66,7 @@ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 ```
 # systemctl enable ssh
+# systemctl enable apache2
 ```
 
 ##setting static ip address.
@@ -89,3 +95,9 @@ mask 255.255.255.0
 gateway 192.168.141.2
 ```
 
+##start/stop service
+
+````
+# systemctl start ssh
+# systemctl start apache2
+```
