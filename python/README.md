@@ -24,6 +24,8 @@ Python のパッケージシステム pip をインストールする。
 
 最初に下記のパッケージをインストールしておくこと。
 
+- for Red Hat Enterprise Linux/CentOS
+
 ```
 # yum install python-devel
 # yum install gcc
@@ -33,6 +35,19 @@ Python のパッケージシステム pip をインストールする。
 # yum install bzip2-devel
 # yum install openssl-devel
 # yum install sqlite-devel
+```
+
+- for Debian-typed
+
+```
+# apt-get install python-dev
+# apt-get install gcc
+# apt-get install g++
+# apt-get install zlib1g-dev
+# apt-get install libreadline-dev
+# apt-get install libbz2-dev
+# apt-get install libssl-dev
+# apt-get install libsqlite3-dev
 ```
 
 本体のインストール
