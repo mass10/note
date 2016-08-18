@@ -22,7 +22,7 @@ Python のパッケージシステム pip をインストールする。
 
 最初に下記のパッケージをインストールしておくこと。
 
-- for Red Hat Enterprise Linux/CentOS
+- for yum
 
 ```
 # yum install python-devel
@@ -35,7 +35,7 @@ Python のパッケージシステム pip をインストールする。
 # yum install sqlite-devel
 ```
 
-- for Debian-typed
+- for apt-get
 
 ```
 # apt-get install python-dev
