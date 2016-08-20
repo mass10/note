@@ -101,3 +101,10 @@ gateway 192.168.141.2
 # systemctl start ssh
 # systemctl start apache2
 ```
+
+#Kali Linux をインストールしたら
+
+## ssh を使えるようにする
+
+デフォルトでは ssh が起動していないため、```service ssh start``` する。なお、自動起動にするために ```systemctl enable ssh``` も。
+
