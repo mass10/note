@@ -9,7 +9,7 @@
 #静的 IP アドレス
 
 ```
-root@kalikeiyak:~# cat /etc/network/interfaces
+root@localhost:~# cat /etc/network/interfaces
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 
@@ -28,7 +28,7 @@ gateway 192.168.141.2
 dns-nameservers 192.168.141.2
 
 
-root@kalikeiyak:~#
+root@localhost:~#
 
 ```
 
