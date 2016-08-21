@@ -10,8 +10,7 @@
 
 https://forums.kali.org/showthread.php?72-Adding-Mirrors-After-Install
 
-```
-Adding Mirrors After Install
+###Adding Mirrors After Install
 
  
 If you didn't have an active or reliable internet connection during a hard disk install, you probably didn't get the mirrors added at that time. This will cause issues in the future when seeking new or updated software packages from the Kali repos. 
@@ -27,7 +26,7 @@ deb-src http://http.kali.org/kali kali main non-free contrib
 3. Save and you're good to go!
 
 You can check that the sources have been added and are being used by loading Add/Remove Software from the Sys Tools menu and selecting System -> Software Sources.
-```
+
 
 #静的 IP アドレス
 
