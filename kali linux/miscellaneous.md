@@ -148,3 +148,19 @@ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 デフォルトでは ssh が起動していないため、```service ssh start``` する。なお、自動起動にするために ```systemctl enable ssh``` も。
 
+
+<br>
+<br>
+<br>
+#Webacoo
+
+　ハッキングツール
+
+##backdoor を作成する
+
+```
+$ webacoo -g -o backdoor.php
+$ ls
+backdoor.php
+```
+
