@@ -160,6 +160,13 @@ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
 ```
 $ webacoo -g -o backdoor.php
+
+        WeBaCoo 0.2.3 - Web Backdoor Cookie Script-Kit
+        Copyright (C) 2011-2012 Anestis Bechtsoudis
+        { @anestisb | anestis@bechtsoudis.com | http(s)://bechtsoudis.com }
+
+[+] Backdoor file "backdoor.php" created.
+
 $ ls
 backdoor.php
 ```
