@@ -11,7 +11,7 @@
 
 　.DEFAULT_GOAL という変数によってデフォルトのターゲットを指定できる。通常は先頭のターゲットがデフォルトのターゲットになる。
 
-```
+```makefile
 .DEFAULT_GOAL = main2
 
 main:
