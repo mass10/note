@@ -1,3 +1,10 @@
+##タイムゾーンを変更する
+
+```
+$ sudo dpkg-reconfigure tzdata
+```
+
+
 ##サービス一覧
 
 ```
