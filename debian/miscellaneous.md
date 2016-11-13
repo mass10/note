@@ -33,3 +33,20 @@ cabal-debian: /usr/bin/cabal-debian
 cabal-debian: /usr/bin/cabal-debian-tests
 cabal-install: /usr/bin/cabal
 ```
+
+#Apache HTTP Server
+
+##インストール
+
+```
+# apt-get install apache2
+```
+
+##SSL を有効にする
+
+```
+# a2ensite default-ssl
+# a2enmod ssl
+# service apache2 restart
+```
+
