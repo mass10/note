@@ -6,6 +6,34 @@
 $ sudo dpkg-reconfigure tzdata
 ```
 
+#ロケールを UTF-8 に変更する
+
+```
+# apt-get install task-japanese
+```
+
+- ja_JP.UTF-8 を有効にする
+
+```
+# vi /etc/locale.gen
+```
+
+```
+# locale-gen
+```
+
+- ロケールを変更
+
+```
+# vi /etc/default/locale
+```
+
+> LANG=ja_JP.UTF-8
+
+```
+# reboot
+```
+
 #サービスの操作
 
 ##サービス一覧
