@@ -20,6 +20,8 @@ $ sudo dpkg-reconfigure tzdata
 # vi /etc/locale.gen
 ```
 
+- 上記の操作をシステムに反映(?)させる
+
 ```
 # locale-gen
 ```
