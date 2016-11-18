@@ -14,7 +14,7 @@ $ sudo dpkg-reconfigure tzdata
 # apt-get install task-japanese
 ```
 
-- ja_JP.UTF-8 を有効にする
+- ja_JP.UTF-8 の行がコメントになっていたらコメントをはずして有効にする
 
 ```
 # vi /etc/locale.gen
