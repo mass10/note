@@ -304,14 +304,14 @@ https://lotz84.github.io/haskellbyexample/
 
 #####at Ubuntu 16.04.1 LTS
 
-- Ubuntu では標準パッケージに入ったっぽい。
-
 ```
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 575159689BEFB442
 $ echo 'deb http://download.fpcomplete.com/ubuntu xenial main'|sudo tee /etc/apt/sources.list.d/fpco.list
 $ sudo apt-get update
 $ sudo apt-get install stack -y
 ```
+
+- Ubuntu では標準パッケージに入ったっぽい。
 
 ##プロジェクトをはじめる
 
