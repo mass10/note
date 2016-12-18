@@ -342,3 +342,23 @@ $ stack runghc app/Main.hs
 
 
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+# Spock
+
+##Spock とは
+
+- ウェブアプリケーションフレームワーク for Haskell
+
+##clone したら
+
+```
+$ stack install
+```
+
