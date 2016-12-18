@@ -356,7 +356,7 @@ $ stack runghc app/Main.hs
 
 - ウェブアプリケーションフレームワーク for Haskell
 
-##clone したら
+##他の場所で作成したプロジェクトを clone したら
 
 ```
 $ stack install
