@@ -298,11 +298,13 @@ https://lotz84.github.io/haskellbyexample/
 
 ##概要
 
-- Cabal の依存性地獄を解決すべく開発されている
+- Cabal の依存性地獄を解決すべく開発されている。これからは Stack を使うのが主流ぽい。
 
 ##GETTING STARTED
 
-- at Ubuntu 16.04.1 LTS
+#####at Ubuntu 16.04.1 LTS
+
+- Ubuntu では標準パッケージに入ったっぽい。
 
 ```
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 575159689BEFB442
@@ -337,3 +339,6 @@ $ stack ghci
 ```
 $ stack runghc app/Main.hs
 ```
+
+
+
