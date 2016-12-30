@@ -298,11 +298,11 @@ https://lotz84.github.io/haskellbyexample/
 
 ##概要
 
-- Cabal の依存性地獄を解決すべく開発されている
+- Cabal の依存性地獄を解決すべく開発されている。これからは Stack を使うのが主流ぽい。
 
 ##GETTING STARTED
 
-- at Ubuntu 16.04.1 LTS
+#####at Ubuntu 16.04.1 LTS
 
 ```
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 575159689BEFB442
@@ -310,6 +310,8 @@ $ echo 'deb http://download.fpcomplete.com/ubuntu xenial main'|sudo tee /etc/apt
 $ sudo apt-get update
 $ sudo apt-get install stack -y
 ```
+
+- Ubuntu では標準パッケージに入ったっぽい。
 
 ##プロジェクトをはじめる
 
@@ -337,3 +339,26 @@ $ stack ghci
 ```
 $ stack runghc app/Main.hs
 ```
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+# Spock
+
+##Spock とは
+
+- ウェブアプリケーションフレームワーク for Haskell
+
+##他の場所で作成したプロジェクトを clone したら
+
+```
+$ stack install
+```
+
