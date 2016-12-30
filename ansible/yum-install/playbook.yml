@@ -1,0 +1,22 @@
+#
+# ディレクトリを作成する Playbook です。
+#
+
+---
+  - hosts: localhost
+    become: yes
+    become_method: sudo
+    become_user: root
+    tasks:
+
+        #
+        # SL をインストールします。
+        #
+      - name: install sl
+        yum: pkg=sl state=latest
+
+        #
+        # Apache 2 をインストールします。
+        #
+      - name: install apache
+        yum: pkg=httpd state=latest
