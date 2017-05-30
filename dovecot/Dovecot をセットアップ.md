@@ -1,17 +1,17 @@
-##環境
+## 環境
 
 - CentOS 6.5
 - postfix-2.6.6-6.el6_5.x86_64
 - dovecot-2.0.9-7.el6_5.1.x86_64
 
 
-##インストール
+## インストール
 
 ```
 # yum install dovecot
 ```
 
-##社内ネットワークなど、閉鎖された安全な環境向けの設定
+## 社内ネットワークなど、閉鎖された安全な環境向けの設定
 
 ※OS アカウントでログインできるように最小の設定をする場合
 
@@ -25,7 +25,7 @@
 mail_location = maildir:~/Maildir
 ```
 
-##準備
+## 準備
 
 ```
 # service iptables start
@@ -36,7 +36,7 @@ mail_location = maildir:~/Maildir
 # service iptables save
 ```
 
-##起動
+## 起動
 
 ```
 # service dovecot start
