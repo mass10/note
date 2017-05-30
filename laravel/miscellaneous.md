@@ -1,6 +1,6 @@
-##Apache をインストール
+## Apache をインストール
 
-#####Ubuntu
+##### Ubuntu
 
 ```
 $ sudo apt-get install apache2
@@ -9,7 +9,7 @@ $ sudo service apache2 restart
 ```
 
 
-##Composer を設置
+## Composer を設置
 
 composer を任意のディレクトリにダウンロードして
 
@@ -25,13 +25,13 @@ $ mv composer.phar composer
 $ mv composer /usr/local/bin/
 ```
 
-##Laravel をインストールする
+## Laravel をインストールする
 
 ```
 $ composer global require "laravel/installer"
 ```
 
-##スケルトンを作成
+## スケルトンを作成
 
 ```
 $ PATH=$PATH:~/.config/composer/vendor/bin/
@@ -39,9 +39,9 @@ $ laravel new myapp1
 ```
 
 
-##アプリケーションを配置する
+## アプリケーションを配置する
 
-#####HTTPS を有効にする
+##### HTTPS を有効にする
 
 (Ubuntu)
 
@@ -51,7 +51,7 @@ $ sudo a2ensite default-ssl
 $ sudo service apache2 restart
 ```
 
-#####パーミッションについて
+##### パーミッションについて
 
 ```
 # chown -R www-data:www-data storage
