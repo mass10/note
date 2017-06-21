@@ -27,6 +27,8 @@ $ mv composer /usr/local/bin/
 
 # Laravel をインストールする
 
+※Do not run Composer as root/super user! See https://getcomposer.org/root for details
+
 ```
 $ composer global require "laravel/installer"
 ```
