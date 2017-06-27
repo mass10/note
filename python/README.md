@@ -1,4 +1,4 @@
-# easy_install
+# easy_install #######################################################
 
 - CentOS 6.5
 - Python 2.6.6
@@ -7,7 +7,13 @@
 # yum install python-setuptools
 ```
 
-# pip
+
+
+
+
+
+
+# pip #######################################################
 
 - CentOS 6.5
 - Python 2.6.6
@@ -18,7 +24,7 @@ Python のパッケージシステム pip をインストールする。
 # easy_install pip
 ```
 
-# pyenv をセットアップする
+# pyenv をセットアップする #######################################################
 
 最初に下記のパッケージをインストールしておくこと。
 
@@ -62,7 +68,7 @@ Python のパッケージシステム pip をインストールする。
 <br>
 <br>
 
-# Python から Oracle に接続する(cx_Oracle の場合)
+# Python から Oracle に接続する(cx_Oracle の場合) #######################################################
 
 - CentOS 6.5
 - Python 2.6.6
@@ -110,7 +116,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-# virtualenv
+
+
+
+
+
+
+# virtualenv #######################################################
 
 システムの Python パッケージとは異なる場所に環境を作成する。
 
@@ -120,4 +132,39 @@ $ cd local-project-1
 $ . bin/activate
 $ pip install xxxxxxxxxxxxxx
 ```
+
+# Python で MySQL #######################################################
+
+#### MySQL 公式ドライバー(mysql-connector-python)をインストールする
+
+2016-08-11 追記: pip で入らなくなっている。
+
+```
+# pip install mysql-connector-python
+```
+
+#### 2016-08-11 yum 経由になっているぽい？？
+
+↓下記で成功！
+
+```
+# yum install epel-release
+# yum install mysql-connector-python
+```
+
+#### MySQL-python をインストールする
+
+```
+# pip install MySQL-python
+```
+
+- おそらく mysql-devel が必要である
+
+
+# memcached #######################################################
+
+```
+# pip install python-memcached
+```
+
 
