@@ -239,7 +239,7 @@ $ pip install xxxxxxxxxxxxxx
 - おそらく mysql-devel が必要である
 
 
-# memcached #######################################################
+# Memcached の Python バインディング #######################################################
 
 ```
 # pip install python-memcached
