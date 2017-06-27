@@ -1,4 +1,4 @@
-#easy_install
+# easy_install
 
 - CentOS 6.5
 - Python 2.6.6
@@ -7,7 +7,7 @@
 # yum install python-setuptools
 ```
 
-#pip
+# pip
 
 - CentOS 6.5
 - Python 2.6.6
@@ -18,7 +18,7 @@ Python のパッケージシステム pip をインストールする。
 # easy_install pip
 ```
 
-#pyenv をセットアップする
+# pyenv をセットアップする
 
 最初に下記のパッケージをインストールしておくこと。
 
@@ -62,7 +62,7 @@ Python のパッケージシステム pip をインストールする。
 <br>
 <br>
 
-#Python から Oracle に接続する(cx_Oracle の場合)
+# Python から Oracle に接続する(cx_Oracle の場合)
 
 - CentOS 6.5
 - Python 2.6.6
@@ -71,7 +71,7 @@ Python のパッケージシステム pip をインストールする。
 $ pip install cx_Oracle
 ```
 
-###トラブルシューティング(libclntsh.so.11.1: cannot open shared object file: No such file or directory)
+### トラブルシューティング(libclntsh.so.11.1: cannot open shared object file: No such file or directory)
 
 下記のような例外がスローされた場合には
 
@@ -109,3 +109,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 11.2.0.2.0
 >>>
 ```
+
+# virtualenv
+
+システムの Python パッケージとは異なる場所に環境を作成する。
+
+```
+$ virtualenv local-project-1 -p python3
+$ cd local-project-1
+$ . bin/activate
+$ pip install xxxxxxxxxxxxxx
+```
+
