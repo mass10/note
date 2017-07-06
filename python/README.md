@@ -246,3 +246,22 @@ $ pip install xxxxxxxxxxxxxx
 ```
 
 
+# python3-pip をインストールする (for Python3 on Ubuntu 17.04) #######################################################
+
+```
+$ sudo -u root
+# apt-get install python3-pip
+# pip3 install パッケージ名
+```
+
+# numpy をインストールする (for Python3 on Ubuntu 17.04) #######################################################
+
+```
+# pip3 install numpy
+```
+
+# pandas をインストールする (for Python3 on Ubuntu 17.04) #######################################################
+
+```
+# pip3 install pandas
+```
