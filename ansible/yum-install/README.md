@@ -1,6 +1,6 @@
 # run
 
 ```
-$ ansible-playbook publish-playbook.yml
+$ ansible-playbook playbook.yml
 ```
 
