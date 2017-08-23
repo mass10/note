@@ -1,0 +1,13 @@
+## AWS いろいろメモ
+
+#### Amazon Linux
+
+- デフォルトユーザーは ec2-user
+
+#### Ubuntu
+
+- デフォルトユーザーは ubuntu
+
+#### CentOS
+
+- デフォルトユーザーは centos
