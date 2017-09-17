@@ -48,6 +48,25 @@ ja_JP.UTF-8 の行がコメントになっていたらコメントをはずし�
 # systemctl -t service
 ```
 
+## サービスを起動
+
+```
+# systemctl start apache2
+```
+
+## サービスを再起動
+
+```
+# systemctl restart apache2
+```
+
+## サービスを停止
+
+```
+# systemctl stop apache2
+```
+
+
 # パッケージ操作
 
 ## [apt-get] ファイルがどのパッケージによってインストールされたものか調べる
@@ -81,6 +100,6 @@ cabal-install: /usr/bin/cabal
 ```
 # a2ensite default-ssl
 # a2enmod ssl
-# systemctl reload apache2
+# systemctl restart apache2
 ```
 
