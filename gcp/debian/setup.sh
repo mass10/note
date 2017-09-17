@@ -1,11 +1,10 @@
 #!/bin/bash
 # coding: utf-8
 
-yum install sl -y
-yum install httpd mod_ssl -y
-
-chkconfig httpd on
-service httpd start
+apt-get install apache2 --yes
+a2ensite default-ssl
+a2enmod ssl
+systemctl start apache2
 
 echo >> ~/.bashrc
 echo >> ~/.bashrc

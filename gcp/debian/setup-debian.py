@@ -18,11 +18,12 @@ def _main():
 	command = [
 		path_to_gcloud, 'compute', 'instances', 'create', new_name,
 		'--machine-type', 'f1-micro',
-		'--image', 'centos-6',
+		'--image', 'debian-9-stretch-v20170829',
+		'--image-project', 'debian-cloud',
 		'--zone', 'asia-northeast1-a',
 		'--network', 'default',
-		'--metadata-from-file', 'startup-script=setup.sh',
-		'--preemptible']
+		'--tags', 'http-server,https-server',
+		'--metadata-from-file', 'startup-script=setup.sh']
 
 	stream = subprocess.Popen(
 		command,
