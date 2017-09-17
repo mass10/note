@@ -81,6 +81,6 @@ cabal-install: /usr/bin/cabal
 ```
 # a2ensite default-ssl
 # a2enmod ssl
-# service apache2 restart
+# systemctl reload apache2
 ```
 
