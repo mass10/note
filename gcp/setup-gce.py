@@ -19,7 +19,7 @@ def _main():
 		path_to_gcloud, 'compute', 'instances', 'create', new_name,
 		'--machine-type', 'f1-micro',
 		'--image', 'centos-6',
-		'--zone', 'asia-east1-a',
+		'--zone', 'asia-northeast1-a',
 		'--network', 'default',
 		'--metadata-from-file', 'startup-script=setup.sh',
 		'--preemptible']
@@ -32,6 +32,6 @@ def _main():
 	response = stream.read()
 	stream.close()
 
-	print response
+	print(response)
 
 _main()
