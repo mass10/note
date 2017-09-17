@@ -1,9 +1,12 @@
 #!/bin/bash
 # coding: utf-8
 
+apt-get install python3-pip --yes
+
 apt-get install apache2 --yes
 a2ensite default-ssl
 a2enmod ssl
+
 systemctl start apache2
 
 echo >> ~/.bashrc
