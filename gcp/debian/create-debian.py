@@ -33,11 +33,7 @@ def _main():
 		'--tags', 'http-server,https-server',
 		'--metadata-from-file', 'startup-script=init.sh']
 
-	stream = subprocess.Popen(
-		command,
-		shell = False,
-		stderr = subprocess.STDOUT,
-		stdout = subprocess.PIPE).stdout
+	stream = subprocess.Popen(command, shell = False, stderr = subprocess.STDOUT, stdout = subprocess.PIPE).stdout
 	response = stream.read()
 	stream.close()
 
