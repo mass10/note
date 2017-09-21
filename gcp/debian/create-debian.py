@@ -7,10 +7,18 @@
 import subprocess
 import uuid
 
+def _generate_new_id():
+
+	while True:
+		new_name = uuid.uuid4()
+		new_name = str(new_name)
+		if new_name[0] in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9'):
+			continue
+		return new_name
+
 def _main():
 
-	new_name = uuid.uuid4()
-	new_name = str(new_name)
+	new_name = _generate_new_id()
 
 	path_to_gcloud = 'gcloud'
 	path_to_gcloud = 'C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd'
@@ -23,7 +31,7 @@ def _main():
 		'--zone', 'asia-northeast1-a',
 		'--network', 'default',
 		'--tags', 'http-server,https-server',
-		'--metadata-from-file', 'startup-script=setup.sh']
+		'--metadata-from-file', 'startup-script=init.sh']
 
 	stream = subprocess.Popen(
 		command,
