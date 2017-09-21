@@ -1,19 +1,14 @@
 #!/bin/bash
 # coding: utf-8
-#
-# Debian を初期セットアップするスクリプト
-#
 
 apt-get install python3-pip --yes
-
-#
-# なぜか 80 しか LISTEN しない...
-#
 
 apt-get install apache2 --yes
 a2ensite default-ssl
 a2enmod ssl
-systemctl start apache2
+
+# systemctl start apache2
+systemctl enable apache2
 
 echo >> ~/.bashrc
 echo >> ~/.bashrc
