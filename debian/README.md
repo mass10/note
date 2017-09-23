@@ -120,3 +120,12 @@ cabal-install: /usr/bin/cabal
 # systemctl restart apache2
 ```
 
+
+
+
+# E: The method driver /usr/lib/apt/methods/https could not be found.
+
+```
+# apt-get install apt-transport-https
+```
+
