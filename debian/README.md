@@ -127,10 +127,12 @@ cabal-install: /usr/bin/cabal
 
 apt-get update でエラー。
 
-> E: The method driver /usr/lib/apt/methods/https could not be found.
-> N: Is the package apt-transport-https installed?
-> E: Failed to fetch https://pkg.jenkins.io/debian-stable/binary/InRelease  
-> E: Some index files failed to download. They have been ignored, or old ones used instead.
+```
+E: The method driver /usr/lib/apt/methods/https could not be found.
+N: Is the package apt-transport-https installed?
+E: Failed to fetch https://pkg.jenkins.io/debian-stable/binary/InRelease  
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+```
 
 ```
 # apt-get install apt-transport-https
