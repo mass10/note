@@ -104,6 +104,14 @@ cabal-debian: /usr/bin/cabal-debian-tests
 cabal-install: /usr/bin/cabal
 ```
 
+## パッケージが“所有”しているファイルを知る
+
+##### jenkins によって“所有”されているファイルを知る
+
+```
+# dpkg-query --listfiles jenkins
+```
+
 # Apache HTTP Server
 
 ## インストール
