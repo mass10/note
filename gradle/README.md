@@ -13,3 +13,9 @@ $ cd PROJECT_NAME
 $ gradle init --type java-application
 ```
 
+# build a java project
+
+```
+$ gradle build
+```
+
