@@ -22,3 +22,17 @@ keystore をセットアップする
 ```
 JENKINS_ARGS="--webroot=/var/cache/$NAME/war --httpPort=-1 --httpsPort=8080 --httpsKeyStore=/var/lib/jenkins/keystore/.keystore --httpsKeyStorePassword=jenkins"
 ```
+
+再起動
+
+```
+# systemctl stop jenkins
+# systemctl start jenkins
+```
+
+確認
+
+```
+# tailf /var/log/jenkins/jenkins.log
+# netstat -ntlp
+```
