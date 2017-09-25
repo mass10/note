@@ -150,7 +150,12 @@ LANG=ja_JP.UTF-8
 # vi /etc/sysconfig/clock
 ```
 
-`UTC=false` に変更して...
+下のように変更して...
+
+```
+ZONE="Asia/Tokyo"
+UTC=true
+```
 
 再起動
 
