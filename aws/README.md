@@ -125,9 +125,9 @@ aws s3 sync myfolder s3://mybucket/myfolder
 # 言語
 
 ```
-# cat /etc/sysconfig/i18n
-# echo LANG\=ja_JP\.UTF-8 > /etc/sysconfig/i18n
-# cat /etc/sysconfig/i18n
+# vi /etc/sysconfig/i18n
+LANG=ja_JP.UTF-8
+
 # reboot
 ```
 
