@@ -126,6 +126,6 @@ aws s3 sync myfolder s3://mybucket/myfolder
 
 ```
 # ln -s -f /usr/share/zoneinfo/Japan /etc/localtime
+# reboot
 ```
-
 
