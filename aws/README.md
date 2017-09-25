@@ -126,8 +126,17 @@ aws s3 sync myfolder s3://mybucket/myfolder
 
 ```
 # vi /etc/sysconfig/i18n
-LANG=ja_JP.UTF-8
+```
 
+下記のように編集
+
+```
+LANG=ja_JP.UTF-8
+```
+
+再起動
+
+```
 # reboot
 ```
 
@@ -135,6 +144,11 @@ LANG=ja_JP.UTF-8
 
 ```
 # ln -s -f /usr/share/zoneinfo/Japan /etc/localtime
+```
+
+再起動
+
+```
 # reboot
 ```
 
