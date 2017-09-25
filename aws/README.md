@@ -122,3 +122,10 @@ aws s3 cp myfolder s3://mybucket/myfolder --recursive
 aws s3 sync myfolder s3://mybucket/myfolder
 ```
 
+# 時刻あわせ
+
+```
+# ln -s -f /usr/share/zoneinfo/Japan /etc/localtime
+```
+
+
