@@ -146,6 +146,12 @@ LANG=ja_JP.UTF-8
 # ln -s -f /usr/share/zoneinfo/Japan /etc/localtime
 ```
 
+```
+# vi /etc/sysconfig/clock
+```
+
+`UTC=false` に変更して...
+
 再起動
 
 ```
