@@ -6,6 +6,7 @@ function main() {
 	echo '### begin ###' >> /tmp/setup.sh.log
 
 	apt-get install wget --yes
+	apt-get install zip --yes
 	apt-get install unzip --yes
 	apt-get install apt-transport-https --yes
 
