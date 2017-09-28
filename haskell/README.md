@@ -350,6 +350,7 @@ $ stack runghc app/Main.hs
 <br>
 <br>
 <br>
+
 # Spock
 
 ## Spock とは
