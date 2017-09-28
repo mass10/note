@@ -10,8 +10,8 @@ def _main():
 
 	command = [
 		'aws', 'ec2', 'run-instances',
-		'--image-id', 'ami-383c1956',
-		'--instance-type', 't2.nano',
+		'--image-id', 'ami-4af5022c', # Amazon Linux AMI 2017.03.1 (HVM), SSD Volume Type
+		'--instance-type', 't2.micro',
 		'--key', 'my-ec2-key',
 		'--security-group-ids', 'sg-9f3b5afa',
 		'--user-data', 'file://setup.sh']
