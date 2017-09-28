@@ -13,9 +13,22 @@ $ cd PROJECT_NAME
 $ gradle init --type java-application
 ```
 
+# show help
+
+```
+$ gradle help
+```
+
+
 # build a java project
 
 ```
 $ gradle build
+```
+
+# shows tasks of project
+
+```
+$ gradle tasks
 ```
 
