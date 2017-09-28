@@ -298,7 +298,7 @@ https://lotz84.github.io/haskellbyexample/
 
 ## 概要
 
-- Cabal の依存性地獄を解決すべく開発されている。これからは Stack を使うのが主流ぽい。
+- Haskell の新しいパッケージマネージャ。Cabal の依存性地獄を解決すべく開発されている。これからは Stack を使うのが主流ぽい。
 
 ## GETTING STARTED
 
