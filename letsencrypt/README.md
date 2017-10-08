@@ -23,3 +23,6 @@ https://certbot.eff.org/ から [Apache], [CentOS 6] を選択して、説明を
 - ドメイン名を入力
 - HTTP を HTTPS にリダイレクトするかどうかを訊かれるので `1` または `2`、ENTER。
 
+##### 確認
+
+https://www.ssllabs.com/ssltest/analyze.html?d=example.tld
