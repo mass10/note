@@ -1,4 +1,4 @@
-# let's encrypt
+# Let's Encrypt
 
 # Case of Apache HTTP Server + Amazon Linux
  
