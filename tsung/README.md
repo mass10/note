@@ -2,7 +2,7 @@
 
 # Tsung on Debian 9
 
-一発で入る
+Debian 系は Erlang 関連のパッケージがスムーズに入るイメージがある。
 
 ```
 # apt-get update
