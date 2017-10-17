@@ -1,8 +1,8 @@
-##環境
+# 環境
 
 - CentOS 6.5
 
-##インストール
+# インストール
 
 ```
 # rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch
@@ -42,7 +42,7 @@ enabled=1
 ```
 
 
-##installing curator
+# installing curator
 
 - はじめに pip を入れておく。
 
