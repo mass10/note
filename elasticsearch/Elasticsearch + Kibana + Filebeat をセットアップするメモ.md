@@ -25,7 +25,7 @@
 
 ## yum を使う場合
 
-- リポジトリ設定
+リポジトリ設定
 
 ```
 # rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
@@ -36,7 +36,7 @@
 # vim /etc/yum.repos.d/elasticsearch.repo
 ```
 
-- ↓貼り付け
+↓貼り付け
 
 ```
 [elasticsearch-5.x]
@@ -49,7 +49,7 @@ autorefresh=1
 type=rpm-md
 ```
 
-- インストール
+インストール
 
 ```
 # yum install elasticsearch
@@ -57,7 +57,7 @@ type=rpm-md
 # yum install filebeat
 ```
 
-- Filebeat Modules を追加
+Filebeat Modules を追加
 
 ```
 # /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-user-agent
