@@ -216,3 +216,9 @@ $ sudo service apache2 restart
 $ sudo apt search openjdk
 ```
 
+
+# Installing SNMP
+
+```
+$ sudo apt-get install snmpd
+```
