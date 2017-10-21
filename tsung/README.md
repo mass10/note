@@ -30,3 +30,8 @@ Debian 系は Erlang 関連のパッケージがスムーズに入るイメー�
 - SOAP support using the HTTP mode (the SOAPAction HTTP header is handled).
 - HTTP server or proxy server load testing.
 
+# Starting Tsung
+
+```
+$ tsung -f settings.xml start
+```
