@@ -32,3 +32,10 @@
 # openssl req -new -key /etc/pki/tls/private/my.key -sha256 -out /etc/pki/tls/misc/my.csr
 # openssl x509 -in /etc/pki/tls/misc/my.csr -days 3650 -req -signkey /etc/pki/tls/private/my.key -sha256 -out /etc/pki/tls/certs/my.crt
 ```
+
+
+# mod_perl on Ubuntu 16
+
+```
+sudo apt-get install libapache2-mod-perl2
+```
