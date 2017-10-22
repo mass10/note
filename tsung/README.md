@@ -35,3 +35,32 @@ Debian 系は Erlang 関連のパッケージがスムーズに入るイメー�
 ```
 $ tsung -f settings.xml start
 ```
+
+
+
+# Can't start!
+
+```
+Starting Tsung
+Log directory is: /home/CURRENT_USER/.tsung/log/20171021-0645
+Can't start ! {error,
+                  {{badmatch,{error,enoent}},
+                   [{ts_controller_sup,start_inets,1,
+                        [{file,"src/tsung_controller/ts_controller_sup.erl"},
+                         {line,105}]},
+                    {ts_controller_sup,init,1,
+                        [{file,"src/tsung_controller/ts_controller_sup.erl"},
+                         {line,91}]},
+                    {supervisor,init,1,[{file,"supervisor.erl"},{line,294}]},
+                    {gen_server,init_it,6,
+                        [{file,"gen_server.erl"},{line,328}]},
+                    {proc_lib,init_p_do_apply,3,
+                        [{file,"proc_lib.erl"},{line,247}]}]}}
+```
+
+do this.
+
+```
+$ sudo ln -s /usr/share /usr/lib/share
+```
+
