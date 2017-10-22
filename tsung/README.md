@@ -61,6 +61,7 @@ Can't start ! {error,
 do this.
 
 ```
-$ sudo ln -s /usr/share /usr/lib/share
+$ sudo ln -s /usr/share /usr/lib/
+$ sudo ln -s /usr/lib/x86_64-linux-gnu/tsung /usr/lib/
 ```
 
