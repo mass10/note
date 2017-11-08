@@ -146,3 +146,9 @@ E: Some index files failed to download. They have been ignored, or old ones used
 # apt-get install apt-transport-https
 ```
 
+
+# 日本語フォントを入れる ##################################################
+
+```
+$ sudo apt install fonts-ipafont
+```
