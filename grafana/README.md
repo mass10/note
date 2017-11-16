@@ -20,3 +20,10 @@ or start grafana-server immediately.
 ```
 $ sudo /bin/systemctl start grafana-server
 ```
+
+
+to see the startup status.
+
+```
+$ sudo systemctl status grafana-server
+```
