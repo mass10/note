@@ -222,3 +222,7 @@ $ sudo apt search openjdk
 ```
 $ sudo apt-get install snmpd
 ```
+
+# sudo with no password on Ubuntu 16.04 LTS
+
+append `ubuntu ALL=NOPASSWD: ALL` to a new file `/etc/sudoers.d/ubuntu`.
