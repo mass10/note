@@ -232,5 +232,5 @@ $ sudo apt-get install snmpd
 
 # sudo with no password on Ubuntu 16.04 LTS
 
-- append `ubuntu ALL=NOPASSWD: ALL` to a new file `/etc/sudoers.d/ubuntu`.
+- append `ubuntu ALL=(ALL:ALL) NOPASSWD: ALL` to a new file `/etc/sudoers.d/ubuntu`.
 
