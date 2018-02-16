@@ -1,4 +1,76 @@
-##現在の設定を表示する
+# DVD から yum する
+
+#### 環境
+
+- CentOS 6.5
+
+#### はじめに
+
+作成: 2014-07-15
+
+/media/CentOS をリポジトリとするための設定ファイルがはじめから用意されているので、これを利用する。ただ、[他の設定ファイルを削除／コマンドライン引数でいちいち除外] しないと期待する挙動にならない。  
+  
+ここでは他の設定ファイルを(一次的に)削除する手順を残しておく。
+
+#### 手順
+
+```
+# mkdir /media/CentOS
+# mount /dev/dvd /media/CentOS
+```
+
+/etc/yum.repos.d/CentOS* を tar
+
+```
+# cd /etc/yum.repos.d/
+# tar cvf xxx.tar Cent*
+```
+
+Media 以外を除去
+
+```
+# rm CentOS-Ba*
+# rm CentOS-De*
+# rm CentOS-Va*
+```
+
+Media を enabled に変更(vi)
+
+```
+enabled=1
+```
+
+yum install!
+```
+# yum install vim
+```
+
+tar を元に戻すには
+```
+# tar xvf xxx.tar
+```
+
+
+# EPEL を有効にする
+
+有用だがまだ正式にリリースされていないパッケージが、一足先に公開される。
+
+#### 環境
+
+- CentOS 6.5
+
+#### 手順
+
+```
+# yum install epel-release
+```
+
+
+
+
+# iptables (CentOS 6.x)
+
+#### 現在の設定を表示する
 
 iptables では “現在のチェインを表示する” と言うっぽい。
 
@@ -14,7 +86,7 @@ iptables では “現在のチェインを表示する” と言うっぽい。
 
     # iptables --list -nvx --line-numbers
 
-##ポートを開く
+#### ポートを開く
 
 8080番への着信を許可する。iptables では “チェイン INPUT に新しいルールを追加する” と言う。
 
@@ -28,7 +100,7 @@ iptables では “現在のチェインを表示する” と言うっぽい。
 
     # service iptables save
 
-##開けたポートを閉じる
+#### 開けたポートを閉じる
 
 iptables では “チェイン INPUT のルールを削除する” と言う。
 
@@ -40,7 +112,7 @@ INPUT Chain の13番を削除
 
     # service iptables save
 
-##ブロックされたリクエストを知る
+#### ブロックされたリクエストを知る
 
 ロギングすることでブロックを検出できる
 
@@ -65,7 +137,7 @@ INPUT Chain の REJECT の直前にルールを挿入
 
 
 
-##通信トラフィックを知る
+#### 通信トラフィックを知る
 
 **・iptables が起動していなければ出ないことに注意**  
 **・INPUT でポートを開けていなければ出ないことに注意** 
@@ -113,3 +185,191 @@ pkts はパケット数、bytes はバイト数を意味します。 値は ipta
 # iptables --insert OUTPUT 位置 --protocol tcp --source-port 80 --jump ACCEPT
 # iptables --list -nvx
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# UUID
+
+```
+$ uuidgen
+d8e06ae2-f4dc-4f4e-aa35-59fbe2fbcc19
+
+$ uuidgen
+89a0d2ed-d65f-4a95-a993-4943a716256b
+
+$ uuidgen
+0fc6224e-1507-4e7b-b06a-1600fea05459
+
+...
+```
+
+
+
+
+# パッケージをインストールせずにダウンロードする (CentOS 6.x)
+
+まず yum を拡張
+
+```
+# yum install yum-downloadonly
+```
+
+オプションを付けてインストール
+
+```
+# yum install --downloadonly PACKAGE_NAME
+```
+
+- そのときの環境にもよるっぽいが一旦 `/var/cache/yum/x86_64/6/updates/packages` 付近に落ちるようだ。
+
+
+# ファイルがどのパッケージなのかを知るには
+
+作成: 2014-06-16  
+- CentOS release 6.5(/etc/redhat-release)
+- RPM バージョン 4.8.0(rpm --version)  
+
+
+```
+# rpm -qf /usr/bin/uuidgen
+util-linux-ng-2.17.2-12.14.el6.x86_64
+
+# rpm -qf /var/www/html
+httpd-2.2.15-29.el6.centos.x86_64
+```
+
+
+
+# その他メモ
+
+#### 環境
+
+- CentOS 6.5
+
+#### インストールしたら
+
+##### インストール時
+
+minimal を入れる。インストール時にネットワーク(eth0)を生かしておくこと以外は特になし。日本語を選択している。
+
+##### .bashrc
+
+    alias l='/bin/ls -lF --full-time --color=auto'
+    alias n='/bin/ls -ltrF --full-time --color=auto'
+    alias u='cd ..'
+
+##### 時計
+
+最初に必ずやる作業
+
+    # yum install ntp
+    # ntpdate 0.centos.pool.ntp.org
+    # chkconfig ntpd on
+
+##### wget は入れておくことが多い
+
+    # yum install wget
+
+##### man も入れておくことが多い
+
+    # yum install man
+
+##### nslookup なども入れておくことが多い
+
+    # yum install bind-utils
+
+##### dstat
+
+```
+# yum install dstat
+```
+
+##### Vim
+
+    # yum install vim
+
+##### .vimrc
+
+自分の .vimrc を転送して ~/ に保管
+
+```
+# cd
+# wget https://raw.githubusercontent.com/mass10/vim.note/master/vimrc/.vimrc
+```
+
+zenburn.vim と molokai.vim を転送して配置
+
+```
+# cd /usr/share/vim/vimfiles/colors/
+# wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
+# wget https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
+```
+
+##### mlocate
+
+普通の開発機なら mlocate を入れておくことが多い。ただし、極度にファイル数が増減するサーバー、例えばメールサーバーなどでは、負荷を気にしておくこと。
+
+```
+# yum install mlocate
+# updatedb
+```
+
+
+
+
+##### Samba
+
+社内のちょこっとサーバーでは、Samba は必ずと言っていいほど入れる
+
+```
+# yum install samba
+```
+
+##### SELinux
+
+```
+# vim /etc/selinux/config
+```
+
+`SELinux=permissive` に変更する
+
+
+## IPアドレスを追加する(一時的、揮発性)
+
+```
+# ip address add 192.168.141.180/24 dev eth0
+# ip address
+```
+
+
+
+
+
+
+
+# yum behind proxy
+
+```
+# vi /etc/yum.conf
+```
+
+```
+proxy=http://proxy-host-name:80
+```
+
