@@ -193,6 +193,13 @@ $ sudo apt-get install libapache2-mod-php
 $ sudo service apache2 restart
 ```
 
+# Installing mod_wsgi on Ubuntu 16.04 LTS ######################
+
+```
+$ sudo apt install libapache2-mod-wsgi-py3
+$ sudo service apache2 restart
+```
+
 # HTTPS を有効にする ######################
 
 ```
@@ -215,4 +222,15 @@ $ sudo service apache2 restart
 ```
 $ sudo apt search openjdk
 ```
+
+
+# Installing SNMP Daemon
+
+```
+$ sudo apt-get install snmpd
+```
+
+# sudo with no password on Ubuntu 16.04 LTS
+
+- append `ubuntu ALL=(ALL:ALL) NOPASSWD: ALL` to a new file `/etc/sudoers.d/ubuntu`.
 
