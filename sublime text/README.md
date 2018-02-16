@@ -16,3 +16,8 @@ UTF-8 以外の日本語文字コードを扱えるようにするやつ。
 
 `Ctrl` + `Shift` + `p` から `Install Package` を選択して `ConvertToUTF8` を検索。
 
+# highlight line が薄い
+
+Twilight.thTheme の lineHighlight を変更する
+
+
