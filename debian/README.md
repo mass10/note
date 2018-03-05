@@ -152,9 +152,3 @@ E: Some index files failed to download. They have been ignored, or old ones used
 ```
 $ sudo apt install fonts-ipafont
 ```
-
-# dpkg install
-
-```
-sudo dpkg --install elasticsearch-6.2.2.deb
-```

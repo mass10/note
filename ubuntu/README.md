@@ -234,3 +234,9 @@ $ sudo apt-get install snmpd
 
 - append `ubuntu ALL=(ALL:ALL) NOPASSWD: ALL` to a new file `/etc/sudoers.d/ubuntu`.
 
+
+# dpkg install (Ubuntu 16.04.4)
+
+```
+sudo dpkg --install elasticsearch-6.2.2.deb
+```

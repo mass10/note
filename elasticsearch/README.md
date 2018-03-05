@@ -53,4 +53,8 @@ enabled=1
 
 ```
 sudo dpkg --install elasticsearch-6.2.2.deb
+systemctl -t service list-unit-files
+sudo systemctl enable elasticsearch
+systemctl -t service list-unit-files
+sudo reboot
 ```
