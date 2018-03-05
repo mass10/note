@@ -58,3 +58,10 @@ sudo systemctl enable elasticsearch
 systemctl -t service list-unit-files
 sudo reboot
 ```
+
+# Python binding
+
+```
+sudo su - root
+pip3 install elasticsearch
+```
