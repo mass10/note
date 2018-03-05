@@ -1,8 +1,4 @@
-# 環境
-
-- CentOS 6.5
-
-# インストール
+# インストール (CentOS 6.5)
 
 ```
 # rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch
@@ -42,7 +38,7 @@ enabled=1
 ```
 
 
-# installing curator
+# installing curator (CentOS 6.5)
 
 - はじめに pip を入れておく。
 
@@ -53,3 +49,8 @@ enabled=1
 ```
 
 
+# Install Elasticsearch on Ubuntu 16.04.4 LTS
+
+```
+sudo dpkg --install elasticsearch-6.2.2.deb
+```
