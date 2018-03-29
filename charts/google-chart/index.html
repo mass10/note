@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+
+			google.charts.load('current', {'packages':['corechart']});
+			google.charts.setOnLoadCallback(drawChart);
+
+			function loadDataSource() {
+				var json_text = $.ajax({
+					url: "data.json",
+					dataType: "json",
+					async: false
+				}).responseText;
+				var unknown = JSON.parse(json_text)
+				return google.visualization.arrayToDataTable(unknown);
+			}
+
+			function drawChart() {
+				var data = loadDataSource();
+				var options = {
+					isStacked: false,
+					title: "CPU 使用率(all)",
+					vAxis: {
+						title: "%"
+					},
+					hAxis: {
+						textPosition: "out",
+						slantedTextAngle: 90,
+						textStyle: {
+							fontSize: 11
+						}
+					},
+					legend: {
+						position: "right",
+						textStyle: {
+							fontSize: 11
+						}
+					},
+				};
+				var chart = new google.visualization.SteppedAreaChart(document.getElementById("chart_div"));
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div" style="width: 1000px; height: 400px;"></div>
+	</body>
+</html>
+
