@@ -1,4 +1,4 @@
-# Ubuntu 18 LTS で静的IPアドレス
+# Ubuntu 18.04 LTS で静的IPアドレス (2018-05-04)
 
 `/etc/netplan/50-cloud-init.yaml` を編集して
 
@@ -20,6 +20,10 @@ sudo netplan apply
 ```
 
 ※既に様々なシステムが稼働していれば reboot すべき。
+
+# Ubuntu 18.04 LTS (Server) で日本語キーボード配列にならない
+
+※VMware のコンソールのはなし。
 
 # Ubuntu 14.04 LTS で静的IPアドレス
 
