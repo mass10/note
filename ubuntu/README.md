@@ -15,11 +15,7 @@ network:
     version: 2
 ```
 
-```
-sudo netplan apply
-```
-
-※既に様々なシステムが稼働していれば reboot すべき。
+※ `sudo netplan apply` で即時反映可能だが、既に様々なシステムが稼働していれば `reboot`。
 
 # Ubuntu 18.04 LTS (Server) で日本語キーボード配列にならない
 
