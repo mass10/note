@@ -1,3 +1,26 @@
+# Ubuntu 18 LTS で静的IPアドレス
+
+`/etc/netplan/50-cloud-init.yaml` を編集して
+
+```
+network:
+    ethernets:
+        ens33:
+            addresses: ["192.168.187.129/24"]
+            gateway4: "192.168.187.2"
+            dhcp4: false
+            optional: true
+            nameservers:
+                addresses: ["192.168.187.2"]
+    version: 2
+```
+
+```
+sudo netplan apply
+```
+
+※既に様々なシステムが稼働していれば reboot すべき。
+
 # Ubuntu 14.04 LTS で静的IPアドレス
 
 - Ubuntu 14.04 LTS (仮想マシン on Windows)
