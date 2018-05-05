@@ -6,7 +6,7 @@ VMware の vmware-tools を入れようとすると、`open-vm-tools` をおす�
 sudo apt install open-vm-tools
 ```
 
-# Ubuntu 18.04 LTS で静的IPアドレス (2018-05-04)
+# Ubuntu 18.04 LTS (Server) で静的IPアドレス (2018-05-04)
 
 `/etc/netplan/50-cloud-init.yaml` を編集して
 
