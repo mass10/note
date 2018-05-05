@@ -1,4 +1,4 @@
-# vmware-install.pl on Ubuntu 18.04 LTS (Desktop)
+# vmware-install.pl on Ubuntu 18.04 LTS (Desktop) (2018-05-05)
 
 VMware の vmware-tools を入れようとすると、`open-vm-tools` をおすすめされたので
 
