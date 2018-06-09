@@ -1,3 +1,11 @@
+# Ubuntu 18.04 LTS (Desktop) で sshd (2018-06-09)
+
+```
+apt install openssh-server
+```
+
+すぐに LISTEN が始まる。
+
 # vmware-install.pl on Ubuntu 18.04 LTS (Desktop) (2018-05-05)
 
 VMware の vmware-tools を入れようとすると、`open-vm-tools` をおすすめされたので
