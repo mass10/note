@@ -1,5 +1,7 @@
 # npm on Amazon Linux
 
+↓これだとめちゃくちゃ古いやつしか落ちてこない
+
 ```
 # yum install epel-release
 # yum install nodejs npm --enablerepo=epel
