@@ -1,5 +1,19 @@
 # sysdig
 
+# watching process
+
+```
+sudo sysdig proc.name=httpd
+```
+
+# Installation on Ubuntu 18
+
+included by OS distribution.
+
+```
+sudo apt install sysdig
+```
+
 # Installation on Ubuntu 16.04.4 LTS (Xenial Xerus)
 
 ```
