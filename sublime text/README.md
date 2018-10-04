@@ -4,23 +4,22 @@
 
 https://packagecontrol.io
 
-##### IMESupport
+##### IMESupport (Windows)
 
 デフォルトでは日本語入力のカーソル位置がおかしいのでこれを解消するやつ。
 
 `Ctrl` + `Shift` + `p` から `Install Package` を選択して `IMESupport` を検索。
 
-##### ConvertToUTF8
+##### ConvertToUTF8 
 
 UTF-8 以外の日本語文字コードを扱えるようにするやつ。
 
 `Ctrl` + `Shift` + `p` から `Install Package` を選択して `ConvertToUTF8` を検索。
 
-<<<<<<< HEAD
 # highlight line が薄い
 
 Twilight.thTheme の lineHighlight を変更する
-=======
+
 ##### フォント
 
 ```
@@ -28,6 +27,11 @@ Twilight.thTheme の lineHighlight を変更する
 "highlight_line": true
 "scroll_speed": 0
 ```
->>>>>>> ee554b4e926dca65b5b46505c59ef36d16fb1a63
 
+# キーボードショートカット
+
+| Windows | Mac OS |
+|-|-|-|
+| 前回の条件で再度検索する | F3 | ⌘ + G |
+| カーソル位置のキーワードで検索する | Ctrl + F3 | ⌘ + ⌥ + G |
 
