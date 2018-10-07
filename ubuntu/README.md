@@ -279,3 +279,12 @@ $ sudo apt-get install snmpd
 ```
 sudo dpkg --install elasticsearch-6.2.2.deb
 ```
+
+# openjdk on ubuntu 18 LTS (2018-10-07)
+
+```
+apt search openjdk
+sudo apt install openjdk-8-jdk
+```
+
+
