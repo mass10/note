@@ -25,10 +25,15 @@ amazon official docker image.
 
 https://hub.docker.com/r/amazon/dynamodb-local/
 
-simply
+run foreground.
 
 ```
-# sudo docker run -p 8000:8000 amazon/dynamodb-local
+sudo docker run -p 8000:8000 amazon/dynamodb-local
+```
+
+run background.
+
+```
 sudo docker run -d -p 8000:8000 amazon/dynamodb-local
 ```
 
