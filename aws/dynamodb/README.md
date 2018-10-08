@@ -28,7 +28,8 @@ https://hub.docker.com/r/amazon/dynamodb-local/
 simply
 
 ```
-sudo docker run -p 8000:8000 amazon/dynamodb-local
+# sudo docker run -p 8000:8000 amazon/dynamodb-local
+sudo docker run -d -p 8000:8000 amazon/dynamodb-local
 ```
 
 ```
