@@ -47,3 +47,10 @@ tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      
 tcp6       0      0 :::22                   :::*                    LISTEN      1256/sshd
 tcp6       0      0 :::8000                 :::*                    LISTEN      2411/docker-proxy
 ```
+
+# local viewer
+
+local viewer (in browser)
+
+`http://localhost:8000/shell/`
+
