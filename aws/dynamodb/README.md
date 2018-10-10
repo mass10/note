@@ -16,12 +16,16 @@ sudo apt install awscli
 # Creating a table [WIP]
 
 ```
-aws dynamodb create-table --table-name "sake-table" --attribute-definitions "AttributeName=name,AttributeType=String" --key-schema "AttributeName=name,KeyType=HASH" --provisioned-throughput "ReadCapacityUnits=1,WriteCapacityUnits=1" --endpoint-url http://localhost:8000 --region local 
+aws dynamodb create-table --table-name "sake_table" --attribute-definitions "AttributeName=name,AttributeType=S" --key-schema "AttributeName=name,KeyType=HASH" --provisioned-throughput "ReadCapacityUnits=1,WriteCapacityUnits=1" --endpoint-url http://localhost:8000 --region local 
 ```
 
 ```
-aws dynamodb list-tables --endpoint-url http://localhost:8000 --region ''
-aws dynamodb list-tables --endpoint-url http://localhost:8000
+aws dynamodb list-tables --endpoint-url 'http://localhost:8000' --region ''
+aws dynamodb list-tables --endpoint-url 'http://localhost:8000' --region 'local'
+aws dynamodb list-tables --endpoint-url 'http://localhost:8000'
+aws dynamodb describe-table --table-name sake_table --endpoint-url http://localhost:8000
+aws dynamodb describe-table --table-name sake_table --endpoint-url http://localhost:8000 --region 'local'
+aws dynamodb delete-table --table-name sake_table --endpoint-url http://localhost:8000
 ```
 
 # Running DynamoDB locally in Docker container (on Ubuntu 18.04 LTS)
