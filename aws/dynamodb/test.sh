@@ -19,7 +19,7 @@ function main() {
 	# 暗号化されたテーブルを作成します。
 	aws dynamodb create-table \
 		--profile "local" \
-		--table-name "sake_table" \
+		--table-name "sake_table_encrypted" \
 		--attribute-definitions "AttributeName=name,AttributeType=S" \
 		--key-schema "AttributeName=name,KeyType=HASH" \
 		--provisioned-throughput "ReadCapacityUnits=1,WriteCapacityUnits=1" \
@@ -28,7 +28,7 @@ function main() {
 	# 削除
 	aws dynamodb delete-table \
 		--profile "local" \
-		--table-name "sake_table" \
+		--table-name "sake_table_encrypted" \
 		--endpoint-url "http://localhost:8000"
 
 }
