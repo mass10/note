@@ -7,4 +7,5 @@ dynamodb:
       - "8000:8000"
     command: -jar DynamoDBLocal.jar -dbPath /ba456e2d-29d1-4f8c-b155-bc9a08cdf5c2
     volumes:
+      # /tmp is local physical path (everyone writeable)
       - /tmp:/ba456e2d-29d1-4f8c-b155-bc9a08cdf5c2
