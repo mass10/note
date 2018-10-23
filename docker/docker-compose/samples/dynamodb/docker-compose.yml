@@ -1,0 +1,10 @@
+#
+# SUCCESS! in Ubuntu 18 LTS (2018-10-24)
+#
+dynamodb:
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+    command: -jar DynamoDBLocal.jar -dbPath /ba456e2d-29d1-4f8c-b155-bc9a08cdf5c2
+    volumes:
+      - /tmp:/ba456e2d-29d1-4f8c-b155-bc9a08cdf5c2
