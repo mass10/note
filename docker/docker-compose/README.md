@@ -5,7 +5,11 @@
 sudo apt install docker-compose
 ```
 
+# run
 
+```
+docker-compose up -d
+```
 
 
 
