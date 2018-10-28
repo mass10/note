@@ -5,19 +5,19 @@ def _create_normal_table()
 
 	# 単純なテーブルを作成します。
 	command = ['aws', 'dynamodb', 'create-table',
-			'--profile', 'local',
-			'--table-name', 'sake_table',
-			'--attribute-definitions', 'AttributeName=name,AttributeType=S',
-			'--key-schema', 'AttributeName=name,KeyType=HASH',
-			'--provisioned-throughput', 'ReadCapacityUnits=1,WriteCapacityUnits=1',
-			'--endpoint-url', 'http://localhost:8000']
+		'--profile', 'local',
+		'--table-name', 'sake_table',
+		'--attribute-definitions', 'AttributeName=name,AttributeType=S',
+		'--key-schema', 'AttributeName=name,KeyType=HASH',
+		'--provisioned-throughput', 'ReadCapacityUnits=1,WriteCapacityUnits=1',
+		'--endpoint-url', 'http://localhost:8000']
 	system(*command)
 
 	# 削除
 	command = ['aws', 'dynamodb', 'delete-table',
-			'--profile', 'local',
-			'--table-name', 'sake_table',
-			'--endpoint-url', 'http://localhost:8000']
+		'--profile', 'local',
+		'--table-name', 'sake_table',
+		'--endpoint-url', 'http://localhost:8000']
 	system(*command)
 
 end
