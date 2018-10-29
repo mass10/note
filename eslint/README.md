@@ -1,0 +1,5 @@
+# ignore file
+
+```
+/* eslint-disable */
+```
