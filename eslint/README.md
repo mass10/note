@@ -1,4 +1,4 @@
-# ignore file
+# ignore this file
 
 ```
 /* eslint-disable */
