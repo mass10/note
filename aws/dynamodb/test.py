@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env python
 # coding: utf-8
 
-function _test_normal_table() {
+def _test_normal_table() {
 
 	# 単純なテーブルを作成します。
 	aws dynamodb create-table \
