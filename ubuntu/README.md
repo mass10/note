@@ -33,6 +33,10 @@ network:
 
 ※ `sudo netplan apply` で即時反映可能だが、既に様々なシステムが稼働していれば `reboot`。
 
+# Ubuntu 18.04 LTS (Server) で静的IPアドレス (2018-12-31)
+
+GUI で設定すると、`/etc/NetworkManager/system-connections/` というところに設定ファイルができる。 `/etc/netplan/50-cloud-init.yaml` というファイルはできない。
+
 # Ubuntu 18.04 LTS (Server) で日本語キーボード配列にならない
 
 ※VMware のコンソールのはなし。
