@@ -70,3 +70,6 @@ gcloud components list
 ```
 gcloud components update
 ```
+
+# 料金
+* インスタンスを「停止」しておけばコストはディスク使用量だけになるので料金が抑えられる。
