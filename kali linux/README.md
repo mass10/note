@@ -1,16 +1,16 @@
-#インストール
+# インストール
 
-##メモ
+## メモ
 
 - プロキシ環境に持っていってインストールをしない！！ (理由: 自宅に帰ってからパッケージを入れようとしてもみつけられなくなった...)
 
 <br><br><br>
 
-#インストール後にミラーを追加する
+# インストール後にミラーを追加する
 
 https://forums.kali.org/showthread.php?72-Adding-Mirrors-After-Install
 
-###Adding Mirrors After Install
+### Adding Mirrors After Install
 
  
 If you didn't have an active or reliable internet connection during a hard disk install, you probably didn't get the mirrors added at that time. This will cause issues in the future when seeking new or updated software packages from the Kali repos. 
@@ -28,7 +28,7 @@ deb-src http://http.kali.org/kali kali main non-free contrib
 You can check that the sources have been added and are being used by loading Add/Remove Software from the Sys Tools menu and selecting System -> Software Sources.
 
 
-#静的 IP アドレス
+# 静的 IP アドレス
 
 ```
 root@localhost:~# cat /etc/network/interfaces
@@ -58,30 +58,30 @@ root@localhost:~#
 <br>
 <br>
 
-#controling services
+# controling services
 
-##updating system.
+## updating system.
 
 ```
 # apt-get update
 # apt-get upgrade
 ```
 
-##show services.
+## show services.
 
 ```
 # systemctl -t service
 # systemctl -t service --all
 ```
 
-##show status of service.
+## show status of service.
 
 ```
 # systemctl is-enabled ssh
 # systemctl is-enabled apache2
 ```
 
-##show status of services.
+## show status of services.
 
 - CentOS とかの chkconfig に相当
 
@@ -89,14 +89,13 @@ root@localhost:~#
 # sysv-rc-conf --list
 ```
 
-##enabling or disabling services.
+## enabling or disabling services.
 
 ```
 # sysv-rc-conf
 ```
 
 ```
-
 l SysV Runlevel Config   -: stop service  =/+: start service  h: help  q: quit qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
 x                                                                                                                         x
 x service      1       2       3       4       5       0       6       S                                                  x
@@ -118,22 +117,16 @@ x                        space: toggle service on / off                         
 mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 ```
 
-
-
-
-
-
-
-##enabling service.
+## enabling service.
 
 ```
 # systemctl enable ssh
 # systemctl enable apache2
 ```
 
-##starting/stoping service
+## starting/stoping service
 
-````
+```
 # systemctl start ssh
 # systemctl start apache2
 ```
@@ -142,21 +135,21 @@ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 <br>
 <br>
 
-#Kali Linux をインストールしたら
+# Kali Linux をインストールしたら
 
 ## ssh を使えるようにする
 
 デフォルトでは ssh が起動していないため、```service ssh start``` する。なお、自動起動にするために ```systemctl enable ssh``` も。
 
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
-#Webacoo
+# Webacoo
 
 　ハッキングツール？ 攻撃者の手を知ることは重要。
 
-##backdoor を作成する
+## backdoor を作成する
 
 ```
 $ webacoo -g -o backdoor.php
@@ -171,11 +164,11 @@ $ ls
 backdoor.php
 ```
 
-##backdoor.php を仕掛ける
+## backdoor.php を仕掛ける
 
 　対象のサーバーに backdoor.php を配置する。たとえば ```/var/www/html/backdoor.php``` のように配置。
 
-##Cracking
+## Cracking
 
 　backdoor.php にアクセス。apache ユーザーでコマンドを実行できるようになる。
 　
