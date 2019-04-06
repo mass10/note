@@ -291,4 +291,7 @@ apt search openjdk
 sudo apt install openjdk-8-jdk
 ```
 
+# Ubuntu Desktop の日本語入力 (18.04 LTS Desktop)
+
+入力方式を選択するあたりで「日本語(かな)」を選んでおくと特に問題なかった。
 
