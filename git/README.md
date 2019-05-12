@@ -62,3 +62,22 @@ $ git gc
 ```
 git checkout ファイル名
 ```
+
+# Git Client for Windows
+
+* SourceTree
+* Fork
+
+# Git LFS のセットアップ
+
+```bash
+brew install git-lfs
+```
+
+そうすると git にサブコマンド lfs が追加されます。
+
+最初に一度 install します。
+
+```bash
+git lfs install
+```
