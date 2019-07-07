@@ -4,11 +4,13 @@
 
 https://packagecontrol.io
 
-#### IMESupport (Windows)
+#### ~IMESupport (Windows)~
 
-デフォルトでは日本語入力のカーソル位置がおかしいのでこれを解消するやつ。
+~デフォルトでは日本語入力のカーソル位置がおかしいのでこれを解消するやつ。~
 
-`Ctrl` + `Shift` + `p` から `Install Package` を選択して `IMESupport` を検索。
+~`Ctrl` + `Shift` + `p` から `Install Package` を選択して `IMESupport` を検索。~
+
+→ 不要になった。
 
 #### ConvertToUTF8 
 
