@@ -10,7 +10,7 @@ https://packagecontrol.io
 
 ~`Ctrl` + `Shift` + `p` から `Install Package` を選択して `IMESupport` を検索。~
 
-→ 不要になった。
+→ カーソル位置が修正されたので、このパッケージは不要になった。
 
 #### ConvertToUTF8 
 
