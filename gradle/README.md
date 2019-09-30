@@ -32,6 +32,14 @@ $ gradle build
 $ gradle tasks
 ```
 
+# run
+
+```run``` というのはデフォルトのタスクのようだ。
+
+```
+$ gradle run
+```
+
 # エラー: メイン・クラスMainが見つからなかったかロードできませんでした
 
 Gradle プロジェクトのデフォルトソースパスは ```$project_root/src/main/java``` です。
