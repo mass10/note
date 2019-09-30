@@ -32,3 +32,12 @@ $ gradle build
 $ gradle tasks
 ```
 
+# エラー: メイン・クラスMainが見つからなかったかロードできませんでした
+
+Gradle プロジェクトのデフォルトソースパスは ```$project_root/src/main/java``` です。
+
+これに反する(例えば ```src``` をソースパスとして使用する)場合には ```build.gradle``` に↓このような行を追加する必要があります。
+
+```[build.gradle]
+sourceSets.main.java.srcDirs = ['src']
+```
