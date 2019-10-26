@@ -295,3 +295,10 @@ sudo apt install openjdk-8-jdk
 
 入力方式を選択するあたりで「日本語(かな)」を選んでおくと特に問題なかった。
 
+
+
+# ファイルをインストールしたパッケージを知る
+
+```shell
+apt-file search /usr/games/sl
+```
