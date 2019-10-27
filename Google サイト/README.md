@@ -8,3 +8,7 @@
     ※ネイキッドドメイン(mydomain.com)は指定できない。
 
 3. Google サイトで作成したウェブサイトにカスタムURL ```www.mydomain.com``` を追加する。
+
+# Google サイトのデフォルト URL
+
+```https://sites.google.com/view/xxxxxxxxxxxxxxxx/``` のようになる。
