@@ -4,6 +4,7 @@
     ```mydomain.com```
 
 2. Custom resource records に CNAME レコードを登録する  
-    ```Name: www, Type: CNAME, TTL: 1h, Data: ghs.googlehosted.com```
+    ```Name: www, Type: CNAME, TTL: 1h, Data: ghs.googlehosted.com```  
+    ※ネイキッドドメイン(mydomain.com)は指定できない。
 
 3. Google サイトで作成したウェブサイトにカスタムURL ```www.mydomain.com``` を追加する。
