@@ -1,4 +1,4 @@
-# Google サイト(=Google Sites) に独自ドメイン www.mydomain.com を貼る
+# Google サイト(=Google Sites) に独自ドメイン www.mydomain.com をつける
 
 1. Google Domains でドメインを購入する  
     ```mydomain.com```
