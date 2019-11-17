@@ -7,6 +7,7 @@
 # mitmproxy ★
 
 - 特定の HTTP/HTTPS リクエストに対してのみ、固定 HTML を返却する、など
+- https://mitmproxy.org/
 
 # Paros
 
