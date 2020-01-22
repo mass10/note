@@ -32,3 +32,7 @@
 
 - HTTP ハニーポット
 
+# autopsy
+
+- フォレンジックツール？？
+-- https://www.autopsy.com
