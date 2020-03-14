@@ -8,6 +8,8 @@
 
 # VirtualBox や VMware Workstation Player が起動しなくなっちゃったときは (2020-03-01)
 
+たぶん WSL2 にするとこれらが動かなくなる。以前は動いていた。
+
 ↓をやったら解決した(管理者で実行した PowerShell 内で実施)
 
 ```
