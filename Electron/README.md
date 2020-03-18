@@ -7,3 +7,6 @@
 yarn add -D electron_builder
 ```
 
+# いろいろリファレンス
+
+https://www.electronjs.org/docs/all

@@ -39,3 +39,29 @@
 ```
 sudo apt-get install libapache2-mod-perl2
 ```
+
+# mod_proxy
+
+```
+sudo apache2ctl configtest
+sudo a2enmod proxy_http
+sudo systemctl restart apache2
+```
+
+# Show service status
+
+```
+sudo systemctl -t service list-unit-files apache2.service
+```
+
+# 自動起動 On(Ubuntu 18)
+
+```
+sudo systemctl enable apache2
+```
+
+# 自動起動 Off(Ubuntu 18)
+
+```
+sudo systemctl disable apache2
+```

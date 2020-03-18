@@ -108,6 +108,7 @@ dns-nameservers 192.168.141.2
 
 ```
 # systemctl -t service list-unit-files
+# systemctl -t service list-unit-files apache2.service
 ```
 
 サービスを止める
