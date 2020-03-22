@@ -24,3 +24,26 @@ server {
     }
 }
 ```
+
+
+# proxy 192.168.56.101:443 to 127.0.0.1:3000, Nginx, Ubuntu 18 (2020-03-22)
+
+ssl-cert が snakeoil.conf、および自己署名証明書を作成してくれる。
+
+```
+    ...
+
+    listen 443 ssl default_server;
+    listen [::]:443 ssl default_server;
+
+    include snippets/snakeoil.conf;
+
+    ...
+
+    location / {
+        proxy_bind 192.168.56.101;
+        proxy_pass http://127.0.0.1:3000;
+    }
+
+    ...
+```
