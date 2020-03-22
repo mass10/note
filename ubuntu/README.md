@@ -114,19 +114,19 @@ dns-nameservers 192.168.141.2
 サービスを止める
 
 ```
-# service nginx stop
+sudo service nginx stop
 ```
 
 サービスを起動する
 
 ```
-# service nginx start
+sudo service nginx start
 ```
 
 自動起動 OFF
 
 ```
-# systemctl disable nginx
+sydo systemctl disable nginx
 ```
 
 自動起動 ON

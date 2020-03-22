@@ -47,3 +47,16 @@ ssl-cert が snakeoil.conf、および自己署名証明書を作成してくれ
 
     ...
 ```
+
+# 起動、停止、自動起動 on Ubuntu (2020-03-22)
+
+```bash
+# サービスを止める
+sudo service nginx stop
+# サービスを起動する
+sudo service nginx start
+# 自動起動 OFF
+sydo systemctl disable nginx
+# 自動起動 ON
+sudo systemctl enable nginx
+```
