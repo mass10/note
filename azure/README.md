@@ -47,3 +47,6 @@ Check 「Remove additional files at destination.」 before publish.
 「発行先の追加ファイルを削除する。」を選択する。
 
 
+# Azure Pipeline `Warning C4566: character represented by universal-character-name '\u30A2' cannot be represented in the current code page (1252)`
+
+* プロジェクトの追加のコマンドラインで `/utf-8` を追加する。'`/utf-8` は `/source-charset:utf-8 /execution-charset:utf-8` と同等)
