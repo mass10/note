@@ -1,3 +1,7 @@
+# Azure の稼働ステータス
+
+https://status.dev.azure.com/
+
 # Azure CLI メモ
 
 ```
