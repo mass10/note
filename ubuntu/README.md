@@ -303,3 +303,28 @@ sudo apt install openjdk-8-jdk
 ```shell
 apt-file search /usr/games/sl
 ```
+
+# locale: Cannot set LC_CTYPE to default locale: No such file or directory
+
+```
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+```
+
+```bash
+localedef --list
+```
+
+> en_US.utf8
+
+```bash
+sudo locale-gen ja_JP.UTF-8
+```
+
+```bash
+localedef --list
+```
+
+> en_US.utf8
+> ja_JP.utf8
