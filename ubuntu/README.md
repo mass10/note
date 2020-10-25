@@ -267,6 +267,13 @@ $ sudo service apache2 restart
 $ sudo apt search openjdk
 ```
 
+# dpkg ######################
+
+* インストール済みパッケージを表示する
+
+```
+dpkg --list
+```
 
 # Installing SNMP Daemon
 
