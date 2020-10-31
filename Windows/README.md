@@ -1,4 +1,4 @@
-# mount on WSL
+# mount on WSL (Windows Subsystems for Linux)
 
 ```bash
 sudo mkdir /mnt/d
