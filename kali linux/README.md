@@ -196,3 +196,9 @@ total 8
 -rw-r--r--. 1 root root   2 Aug 23 00:18 index.html
 webacoo$
 ```
+
+# OS をスキャンする
+
+```bash
+nmap -O 192.168.56.101
+```
