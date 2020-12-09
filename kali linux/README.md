@@ -208,3 +208,64 @@ nmap -O 192.168.56.101
 ```bash
 nmap -sV -O -p- 172.20.10.5
 ```
+
+# nmap
+
+```
+sudo nmap -sS -A 10.0.2.15
+```
+
+# skipfish
+
+* Google のクローリングツール
+
+```
+skipfish -o log 10.0.2.15
+```
+
+# dirb
+
+* 同じくクローリングツール
+
+```
+dirb http://10.0.2.15/
+```
+
+# nikto
+
+* ウェブアプリケーション診断
+
+```
+nikto -h 10.0.2.15
+```
+# Metasploit
+
+```
+msfconsole
+```
+
+* exploit を検索する
+
+```
+search apache bash
+```
+
+* オプションを確認する
+
+```
+options
+```
+
+* オプションを変更する
+
+```
+set TARGETURI /cgi-bin/index.cgi
+```
+
+* exploit を実行する
+
+```
+exploit
+```
+
+※もしくは `run`
