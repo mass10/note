@@ -40,3 +40,6 @@
 # 症状を隠す動物である
 
 # ストレスに弱い
+
+# リンク
+* まさの森・動物病院【金沢市】 https://www.youtube.com/channel/UCTX1hFOgRBFqhhJbi5QtxzA
