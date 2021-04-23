@@ -3,3 +3,9 @@
 > 高度な設計をするよりもほどよいわかりやすさで軽量にスピードをもって開発をしていけるほうが価値があるのではないかという感覚を持つに至る人が多い
 
 https://tech.bm-sms.co.jp/entry/2021/01/05/142920
+
+
+# マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada)
+https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
+
+
