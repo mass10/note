@@ -9,3 +9,5 @@ https://tech.bm-sms.co.jp/entry/2021/01/05/142920
 https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
 
 
+# Only My Rails Way
+https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
