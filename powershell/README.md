@@ -10,8 +10,8 @@
 
 現在のポリシーを確認する。
 
-```
-> Get-ExecutionPolicy
+```PowerShell
+Get-ExecutionPolicy
 ```
 
 > Restricted
@@ -22,8 +22,8 @@
 
 とりいそぎ実行するためには下記のように入力。(※これは「管理者として実行」していなければ受理されないことに注意！)
 
-```
-> Set-ExecutionPolicy RemoteSigned
+```PowerShell
+Set-ExecutionPolicy RemoteSigned
 ```
 
 質問されるので Y。(意味=外部から入手したスクリプトは署名されていなければ実行できない。自分で作成したものは実行できる。)
