@@ -14,3 +14,10 @@ https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sale
 # Only My Rails Way
 https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
 
+# ウェブ製作編
+
+##### ICON BOX https://iconbox.fun/
+    * オリジナルアイコン SVG 画像を配布しているサイト。商用利用可能。再配布禁止。
+##### オリジナル SVG 画像を製作できるサイト https://bgjar.com/
+    * aaaaaaaaaa
+##### 都市・建築物関連 イラストサイト https://town-illust.com/
