@@ -25,3 +25,7 @@ https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
  * 画像のダウンロードだけでなく、.svg を埋め込む際のコードスニペットなども用意されている。
 #### 都市・建築物関連 イラストサイト https://town-illust.com/
 #### パターン http://bg-patterns.com/
+
+# Coe Font STUDIO コエフォント (2021-05-08)
+声を「フォント」と捉えて、すべての人にボイスフォントを届けるようなビジョンの製品。2021-04-23 サービス開始。たとえば Live2D に Coe Font STUDIO でボイスを付ける、というようなことができる。
+https://www.dtmstation.com/archives/34908.html
