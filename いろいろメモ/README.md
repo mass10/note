@@ -16,6 +16,9 @@ https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
 
 # ウェブ製作編
 
+#### remove bg
+ * 画像の背景を消去 
+   https://www.remove.bg/ja
 #### Canva canva.com
  * ロゴ製作、画像製作など、いろいろなことができる。
 #### ICON BOX https://iconbox.fun/
