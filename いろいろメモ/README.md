@@ -7,15 +7,11 @@ https://postd.cc/blameless-postmortems/
 
 # 読み物
 
-### マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada)
-https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
-### 「継続性アーキテクト」という生き方
-https://tech.bm-sms.co.jp/entry/2021/01/05/142920
+### マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada) https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
+### 「継続性アーキテクト」という生き方 https://tech.bm-sms.co.jp/entry/2021/01/05/142920
 * 高度な設計をするよりもほどよいわかりやすさで軽量にスピードをもって開発をしていけるほうが価値があるのではないかという感覚を持つに至る人が多い
-### Only My Rails Way
-https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
-### TDDは死んだ。テスティングよ栄えよ。 by DHH
-https://yattom.hatenablog.com/entry/20140424/p1
+### Only My Rails Way https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
+### TDDは死んだ。テスティングよ栄えよ。 by DHH https://yattom.hatenablog.com/entry/20140424/p1
 
 # ウェブ製作編
 
