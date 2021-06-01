@@ -5,7 +5,7 @@
 # 読み物
 
 ### [非難なき事後分析と公正な企業文化](https://postd.cc/blameless-postmortems/)
-### [マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada)](https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support)
+### [マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得](https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support)
 ### [「継続性アーキテクト」という生き方](https://tech.bm-sms.co.jp/entry/2021/01/05/142920)
 * 高度な設計をするよりもほどよいわかりやすさで軽量にスピードをもって開発をしていけるほうが価値があるのではないかという感覚を持つに至る人が多い
 ### [Only My Rails Way](https://zenn.dev/yukito0616/articles/d3b7032e9f1e90)
