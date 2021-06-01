@@ -13,6 +13,9 @@ https://postd.cc/blameless-postmortems/
 ### Only My Rails Way https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
 ### TDDは死んだ。テスティングよ栄えよ。 by DHH https://yattom.hatenablog.com/entry/20140424/p1
 
+### 優秀さについて https://ja.kohsuke.org/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA/%E5%84%AA%E7%A7%80%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/
+> 「出来る人も出来ない人も全部を底上げするにはどうするのか、という事だ。少数の力を最大限に増幅するよりも、元気玉のように多くの人の力を結集する仕組みに僕は惹かれる」
+
 # ウェブ製作編
 
 #### remove bg
