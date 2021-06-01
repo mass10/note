@@ -1,19 +1,17 @@
-# 非難なき事後分析と公正な企業文化
-https://postd.cc/blameless-postmortems/
-
 # 証明書とか暗号化とか
 
 * https://techinfoofmicrosofttech.osscons.jp/index.php?%E8%A8%BC%E6%98%8E%E6%9B%B8#qb0334b2
 
 # 読み物
 
-### マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada) https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
-### 「継続性アーキテクト」という生き方 https://tech.bm-sms.co.jp/entry/2021/01/05/142920
+### [非難なき事後分析と公正な企業文化](https://postd.cc/blameless-postmortems/)
+### [マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得 (Takaaki Umada)](https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support)
+### [「継続性アーキテクト」という生き方](https://tech.bm-sms.co.jp/entry/2021/01/05/142920)
 * 高度な設計をするよりもほどよいわかりやすさで軽量にスピードをもって開発をしていけるほうが価値があるのではないかという感覚を持つに至る人が多い
-### Only My Rails Way https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
-### TDDは死んだ。テスティングよ栄えよ。 by DHH https://yattom.hatenablog.com/entry/20140424/p1
+### [Only My Rails Way](https://zenn.dev/yukito0616/articles/d3b7032e9f1e90)
+### [TDDは死んだ。テスティングよ栄えよ。by DHH](https://yattom.hatenablog.com/entry/20140424/p1)
 
-### 優秀さについて https://ja.kohsuke.org/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA/%E5%84%AA%E7%A7%80%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/
+### [優秀さについて](https://ja.kohsuke.org/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA/%E5%84%AA%E7%A7%80%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/)
 > 「出来る人も出来ない人も全部を底上げするにはどうするのか、という事だ。少数の力を最大限に増幅するよりも、元気玉のように多くの人の力を結集する仕組みに僕は惹かれる」
 
 # ウェブ製作編
