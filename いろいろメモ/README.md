@@ -16,8 +16,7 @@ https://tech.bm-sms.co.jp/entry/2021/01/05/142920
 ### Only My Rails Way
 https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
 
-### 
-TDDは死んだ。テスティングよ栄えよ。by DHH
+### TDDは死んだ。テスティングよ栄えよ。by DHH
 https://yattom.hatenablog.com/entry/20140424/p1
 
 ### 優秀さについて
