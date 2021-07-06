@@ -32,7 +32,8 @@ https://note.com/kikukawakk/n/nf1c5ca6658a3
 #### remove bg
  * 画像の背景を消去 
    https://www.remove.bg/ja
-#### Canva canva.com
+#### Canva
+https://canva.com
  * ロゴ製作、画像製作など、いろいろなことができる。
 #### ICON BOX https://iconbox.fun/
  * オリジナルアイコン SVG 画像を配布しているサイト。商用利用可能。再配布禁止。
