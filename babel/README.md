@@ -1,4 +1,4 @@
-# 問題 「Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3"」
+# 問題 「Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3"」 (2021-08-02)
 
 * 概要
 ```
