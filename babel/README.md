@@ -1,3 +1,8 @@
+# Babel？
+
+* JavaScript ソースを変換する。
+* TypeScript の transpile にも使用できるっぽい？(通常は tsc --build)
+
 # 問題 「Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3"」 (2021-08-02)
 
 * 概要
