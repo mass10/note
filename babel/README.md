@@ -1,4 +1,4 @@
-# Babel？
+# Babel とは？
 
 * JavaScript ソースを変換する。
 * TypeScript の transpile にも使用できるっぽい？(通常は tsc --build)
