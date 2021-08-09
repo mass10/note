@@ -2,7 +2,7 @@
 
 * https://techinfoofmicrosofttech.osscons.jp/index.php?%E8%A8%BC%E6%98%8E%E6%9B%B8#qb0334b2
 
-# 読み物
+# 読み物・動画
 
 ### 非難なき事後分析と公正な企業文化
 https://postd.cc/blameless-postmortems
