@@ -27,6 +27,22 @@ https://ja.kohsuke.org/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9
 https://note.com/kikukawakk/n/nf1c5ca6658a3
 > 僕らの事業の本当の意味での"熱狂"を作るKPIは、エゴ的な数字の「物件数」や「売上」ではなくて、ユーザーの契約更新率だったり、物件掲載から最初のゲストが入るまでの期間だったり、そういったユーザーやプロダクトを向いた数字であるべきだったのです
 
+### 思いやりの哲学 ダライ・ラマの言葉 - Chade-Meng Tan, Google, November 2010
+  TED - https://www.youtube.com/watch?v=yTR4sAD_4qM  
+  日本語字幕 - https://www.youtube.com/watch?v=KPdzY-OZeRU
+
+* 「思いやり」と「優れたビジネスリーダー」の関係
+* 思いやり
+	* 情動的要素(察する力、感じ取る力)
+	* 認知的要素(理解する力)
+	* 動機的要素(助けたい気持ち)
+* Good to Great - Jim Collins
+	* 優秀な企業を偉大な企業へ変化させるためには、非常に特殊な種類のリーダーが必要である。
+	* 謙虚さ(=Humble)と野心(=Ambitious)
+	* より大きな善のために野心を抱いている人物は、自尊心のために尊大に振る舞う必要がない
+* リーダーシップは人格から始まる
+* Emotional Intelligence(心の知能指数)
+
 # ウェブ製作編
 
 #### remove bg
