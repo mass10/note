@@ -1,3 +1,7 @@
+# 2014年 パターン認識と機械学習
+
+http://nineties.github.io/prml-seminar/#/
+
 # 証明書とか暗号化とか
 
 * https://techinfoofmicrosofttech.osscons.jp/index.php?%E8%A8%BC%E6%98%8E%E6%9B%B8#qb0334b2
