@@ -76,6 +76,6 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 # iperf3 [ネットワーク, 可視化] (2021-05-02)
 * 2つのネットワーク機器間の通信速度、パフォーマンスを計測するツール？？(未確認)
 
-# ウェブ開発編
+# パフォーマンスチューニングなど
 
 * お前らのReactは遅い https://qiita.com/teradonburi/items/5b8f79d26e1b319ac44f
