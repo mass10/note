@@ -62,6 +62,7 @@ https://canva.com
  * 画像のダウンロードだけでなく、.svg を埋め込む際のコードスニペットなども用意されている。
 #### 都市・建築物関連 イラストサイト https://town-illust.com/
 #### パターン http://bg-patterns.com/
+#### 物体を消すやつ https://cleanup.pictures/
 
 ### 曼荼羅画像を描くやつ
 https://www.mandalagaba.com/
