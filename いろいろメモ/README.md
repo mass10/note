@@ -52,19 +52,28 @@ https://note.com/kikukawakk/n/nf1c5ca6658a3
 #### remove bg
  * 画像の背景を消去 
    https://www.remove.bg/ja
+
 #### Canva
 https://canva.com
  * ロゴ製作、画像製作など、いろいろなことができる。
+
 #### ICON BOX https://iconbox.fun/
  * オリジナルアイコン SVG 画像を配布しているサイト。商用利用可能。再配布禁止。
+
 #### オリジナル SVG 画像を製作できるサイト https://bgjar.com/
  * 「シンプルな幾何学模様の帯」などが手軽に作成できる。
  * 画像のダウンロードだけでなく、.svg を埋め込む際のコードスニペットなども用意されている。
-#### 都市・建築物関連 イラストサイト https://town-illust.com/
-#### パターン http://bg-patterns.com/
-#### 物体を消すやつ https://cleanup.pictures/
 
-### 曼荼羅画像を描くやつ
+#### 都市・建築物関連 イラストサイト
+https://town-illust.com/
+
+#### パターン
+http://bg-patterns.com/
+
+#### 物体を消すやつ
+https://cleanup.pictures/
+
+#### 曼荼羅画像を描くやつ
 https://www.mandalagaba.com/
 
 # Coe Font STUDIO コエフォント (2021-05-08)
