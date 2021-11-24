@@ -21,6 +21,9 @@ UTF-8 以外の日本語文字コードを扱えるようにするやつ。
 #### highlight line が薄い
 
 `Twilight.thTheme` の `lineHighlight` を変更する
+![image](https://user-images.githubusercontent.com/2055840/143180776-2c554007-0c24-48a3-a0c9-828747744795.png)
+
+
 
 #### フォント
 
