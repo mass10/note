@@ -7,9 +7,11 @@
 2. 下記のような属性を追加します。
 
 ```JSON
+{
     "workbench.colorCustomizations": {
         "tab.activeBackground": "#909090",
     },
+}
 ```
 
 ![image](https://user-images.githubusercontent.com/2055840/143372920-819a8c6c-937e-4885-87f2-ad608c4936d1.png)
