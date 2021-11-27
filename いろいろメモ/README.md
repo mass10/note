@@ -76,6 +76,9 @@ https://cleanup.pictures/
 #### 曼荼羅画像を描くやつ
 https://www.mandalagaba.com/
 
+### Public Suffix List などの話
+https://blog.jxck.io/entries/2021-04-21/public-suffix-list.html#public-suffix-list-psl
+
 # Coe Font STUDIO コエフォント (2021-05-08)
 声を「フォント」と捉えて、すべての人にボイスフォントを届けるようなビジョンの製品。2021-04-23 サービス開始。たとえば Live2D に Coe Font STUDIO でボイスを付ける、というようなことができる。
 https://www.dtmstation.com/archives/34908.html
@@ -88,5 +91,3 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 	* 2つのネットワーク機器間の通信速度、パフォーマンスを計測するツール？？(未確認)
 * お前らのReactは遅い https://qiita.com/teradonburi/items/5b8f79d26e1b319ac44f (2021-11-05)
 
-# Public Suffix List などの話
-https://blog.jxck.io/entries/2021-04-21/public-suffix-list.html#public-suffix-list-psl
