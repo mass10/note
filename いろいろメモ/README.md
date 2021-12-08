@@ -91,3 +91,5 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 	* 2つのネットワーク機器間の通信速度、パフォーマンスを計測するツール？？(未確認)
 * お前らのReactは遅い https://qiita.com/teradonburi/items/5b8f79d26e1b319ac44f (2021-11-05)
 
+# Windows
+* [Microsoft Small Basic](https://smallbasic-publicwebsite.azurewebsites.net/)
