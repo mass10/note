@@ -93,3 +93,6 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 
 # Windows
 * [Microsoft Small Basic](https://smallbasic-publicwebsite.azurewebsites.net/)
+
+# M5Stack
+* [M5Stackで音を測る](https://ambidata.io/samples/m5stack/sound/)
