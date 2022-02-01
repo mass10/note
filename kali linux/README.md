@@ -269,3 +269,9 @@ exploit
 ```
 
 ※もしくは `run`
+
+# davtest - WevDAV へのアクセスを確認する
+
+```sh
+davtest -url http://192.168.141.147
+```
