@@ -15,9 +15,15 @@ make いろいろメモ
 
 ```makefile
 # プログラムの中で参照したい環境変数
-export MY_MAKE_ENV1=xxxxxxxxxxxxxxxxxxxxxxxxx
+export MY_APP_VAR1=xxxxxxxxxxxxxxxxxxxxxxxxx
 
 default:
+	cargo fmt
+	cargo run
+	
+invalid_task:
+	# ここに書いてもダメ
+	export MY_VANISHED_VAR2=DEBUG
 	cargo fmt
 	cargo run
 ```
