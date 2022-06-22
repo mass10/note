@@ -6,14 +6,14 @@ main:
 
 # このファイルはここから実行される
 main2:
+	@echo '[main2]'
+	@echo 'makefile is chosen.'
+
 	./raise.app 0
 	./raise.app 0
 	./raise.app -20
 	./raise.app 1
 	./raise.app 2
-
-	@echo '[main2]'
-	@echo 'makefile is chosen.'
 
 raise.app: raise.cpp
 	gcc -o raise.app raise.cpp
