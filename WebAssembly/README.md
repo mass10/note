@@ -7,3 +7,10 @@
 # lunatic
 https://lunatic.solutions/
 * Eavang/OTP の影響を受けた WebAssembly プラットフォーム。超軽量プロセスに閉じた環境で module を動かす。
+
+# Installing wasmer (2022-08-14)
+
+```
+cargo install wasmer-cli --features singlepass,cranelift
+cargo install wapm-cli
+```
