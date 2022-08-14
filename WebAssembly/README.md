@@ -14,3 +14,5 @@ https://lunatic.solutions/
 cargo install wasmer-cli --features singlepass,cranelift
 cargo install wapm-cli
 ```
+
+* https://github.com/wasmerio/wasmer-install
