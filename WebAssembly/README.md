@@ -19,4 +19,5 @@ cargo install wasmer-cli --features singlepass,cranelift
 cargo install wapm-cli
 ```
 
+* https://wasmer.io/
 * https://github.com/wasmerio/wasmer-install
