@@ -8,30 +8,30 @@ http://nineties.github.io/prml-seminar/#/
 
 # 読み物・動画
 
-### 非難なき事後分析と公正な企業文化
+#### 非難なき事後分析と公正な企業文化
 https://postd.cc/blameless-postmortems
 
-### マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得
+#### マーケティングを捨てよ、サポートへ出よう　事例から見るスタートアップ初期におけるユーザー獲得
 https://www.slideshare.net/takaumada/throw-away-your-marketing-rally-in-the-sales-and-customer-support
-### 「継続性アーキテクト」という生き方
+#### 「継続性アーキテクト」という生き方
 https://tech.bm-sms.co.jp/entry/2021/01/05/142920
 > 高度な設計をするよりもほどよいわかりやすさで軽量にスピードをもって開発をしていけるほうが価値があるのではないかという感覚を持つに至る人が多い
 
-### Only My Rails Way
+#### Only My Rails Way
 https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
 
-### TDDは死んだ。テスティングよ栄えよ。by DHH
+#### TDDは死んだ。テスティングよ栄えよ。by DHH
 https://yattom.hatenablog.com/entry/20140424/p1
 
-### 優秀さについて
+#### 優秀さについて
 https://ja.kohsuke.org/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA/%E5%84%AA%E7%A7%80%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/
 > 「出来る人も出来ない人も全部を底上げするにはどうするのか、という事だ。少数の力を最大限に増幅するよりも、元気玉のように多くの人の力を結集する仕組みに僕は惹かれる」
 
-### OYO日本人第一号社員が振り返る、OYO LIFEの事業立ち上げから承継まで
+#### OYO日本人第一号社員が振り返る、OYO LIFEの事業立ち上げから承継まで
 https://note.com/kikukawakk/n/nf1c5ca6658a3
 > 僕らの事業の本当の意味での"熱狂"を作るKPIは、エゴ的な数字の「物件数」や「売上」ではなくて、ユーザーの契約更新率だったり、物件掲載から最初のゲストが入るまでの期間だったり、そういったユーザーやプロダクトを向いた数字であるべきだったのです
 
-### 思いやり／ビジネスリーダー／ダライ ラマの言葉 - Chade-Meng Tan, Google, November 2010
+#### 思いやり／ビジネスリーダー／ダライ ラマの言葉 - Chade-Meng Tan, Google, November 2010
   TED - https://www.youtube.com/watch?v=yTR4sAD_4qM  
   日本語字幕 - https://www.youtube.com/watch?v=KPdzY-OZeRU
 
