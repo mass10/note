@@ -99,3 +99,8 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 
 # M5Stack
 * [M5Stackで音を測る - Ambient](https://ambidata.io/samples/m5stack/sound/)
+
+# ちょっとしたツールなど
+* JSON を Visio っぽく可視化してくれる。 https://jsonvisio.com/editor
+
+
