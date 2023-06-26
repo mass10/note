@@ -275,6 +275,12 @@ $ sudo apt search openjdk
 dpkg --list
 ```
 
+* /usr/bin/npm を入れたパッケージを表示する
+
+```sh
+dpkg -S /usr/bin/npm
+```
+
 # Installing SNMP Daemon
 
 ```
