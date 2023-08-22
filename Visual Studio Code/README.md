@@ -20,4 +20,10 @@
 
 ![image](https://user-images.githubusercontent.com/2055840/143373134-77edbac3-5fb9-445f-9411-36c286c9e606.png)
 
+# カーソル行がわかりにくい！
 
+同じく
+
+```JSON
+editor.lineHighlightBackground
+```
