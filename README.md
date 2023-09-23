@@ -50,6 +50,9 @@ https://note.com/kikukawakk/n/nf1c5ca6658a3
 #### やっぱ「邦ロック」聴いても音楽聴いたことにならなくない？という話──サマソニにおける差別的な言動を通して
 https://leoleonni.hatenablog.com/entry/2022/08/21/064513
 
+#### きれいなコードを書けという話について
+https://kumagi.hatenablog.com/entry/write-beautiful-code
+
 # ウェブ製作編
 
 #### remove bg
