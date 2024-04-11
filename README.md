@@ -53,7 +53,7 @@ https://leoleonni.hatenablog.com/entry/2022/08/21/064513
 #### きれいなコードを書けという話について
 https://kumagi.hatenablog.com/entry/write-beautiful-code
 
-# ウェブ製作編
+# ウェブ製作・デザイン 編
 
 #### remove bg
  * 画像の背景を消去 
