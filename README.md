@@ -55,12 +55,10 @@ https://kumagi.hatenablog.com/entry/write-beautiful-code
 
 # ウェブ製作・デザイン 編
 
-#### remove bg
+#### remove bg https://www.remove.bg/ja
  * 画像の背景を消去 
-   https://www.remove.bg/ja
 
-#### Canva
-https://canva.com
+#### Canva https://canva.com
  * ロゴ製作、画像製作など、いろいろなことができる。
 
 #### https://heroicons.com/
