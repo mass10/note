@@ -63,6 +63,9 @@ https://kumagi.hatenablog.com/entry/write-beautiful-code
 https://canva.com
  * ロゴ製作、画像製作など、いろいろなことができる。
 
+#### https://heroicons.com/
+* Tailwind CSS とあわせて使いやすいアイコン
+
 #### ICON BOX https://iconbox.fun/
  * オリジナルアイコン SVG 画像を配布しているサイト。商用利用可能。再配布禁止。
 
