@@ -109,3 +109,6 @@ https://postd.cc/mit-license-line-by-line/ (2016年11月25日の記事)
 
 # 機械学習関連は
 https://github.com/mass10/python.note
+
+
+
