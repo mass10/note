@@ -15,6 +15,10 @@
 
 # 2024-05-04 コミットに署名するための準備
 
+gpg ツールをゲット
+
+https://www.gpg4win.org/get-gpg4win.html
+
 鍵の作成
 
 ```sh
