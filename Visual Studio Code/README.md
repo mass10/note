@@ -32,7 +32,7 @@
 }
 ```
 
-# explorer の indent が小さすぎ
+# explorer のインデントが小さすぎ
 
 * デフォルト
 
