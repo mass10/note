@@ -25,5 +25,9 @@
 同じく
 
 ```JSON
-editor.lineHighlightBackground
+{
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#404040"
+    }
+}
 ```
