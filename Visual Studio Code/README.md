@@ -31,3 +31,19 @@
     }
 }
 ```
+
+# explorer の indent が小さすぎ
+
+* デフォルト
+
+![image](https://github.com/user-attachments/assets/a4fb363d-d0e4-4b1f-9d07-5f973888bf15)
+
+```json
+{
+    "workbench.tree.indent": 18
+}
+```
+
+* インデント: 18
+
+![image](https://github.com/user-attachments/assets/d79692dc-9ba9-4ecb-b19f-12a479d11a82)
