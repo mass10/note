@@ -1,3 +1,13 @@
+# 「The terminal process "/bin/bash" terminated with exit code: 130.」
+
+User Settings で無視できます。
+
+```json
+{
+    "terminal.integrated.showExitAlert": false
+}
+```
+
 # アクティブなタブがわかりにくい！
 
 1. 「Open Settings (JSON)」を開きます。  
@@ -32,7 +42,7 @@
 }
 ```
 
-# explorer のインデントが小さすぎ
+# EXPLORER のインデントが小さすぎ
 
 * デフォルト
 
