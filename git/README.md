@@ -81,3 +81,9 @@ brew install git-lfs
 ```bash
 git lfs install
 ```
+
+# 2025-03-03 git log の日本語部分がエスケープされてしまうのを回避したい
+
+```sh
+export LESSCHARSET=utf-8
+```
