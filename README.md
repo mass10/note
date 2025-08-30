@@ -68,6 +68,10 @@ https://kumagi.hatenablog.com/entry/write-beautiful-code
 
 > 書き手と読み手の心が一致した時にようやく読みやすいコードになるのであって...そこを一致させるまでの時間を短くするよう心がけるべきだ。
 
+#### ◆「どうでもいいことは流行に従い、重大なことは標準に従い、ドメインのことは自ら設計する。」 (郡山 昭仁)
+
+https://koriym.github.io/blog/2023/03/28/phperkaigi2023/
+
 # ウェブ製作・デザイン 編
 
 #### ◆remove bg https://www.remove.bg/ja
@@ -157,3 +161,4 @@ https://github.com/mass10/python.note
 <!--  -->
 <!--  -->
 <!--  -->
+
