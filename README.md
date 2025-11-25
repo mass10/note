@@ -72,7 +72,8 @@ https://kumagi.hatenablog.com/entry/write-beautiful-code
 https://koriym.github.io/blog/2023/03/28/phperkaigi2023/
 
 #### ◆機能ロードマップというアンチパターン
-https://note.com/sota_omura/n/nf1ac303dc56c#42496849-2004-4b1e-83c0-11c5208e7b7f
+
+https://note.com/sota_omura/n/nf1ac303dc56c
 
 # ウェブ製作・デザイン 編
 
@@ -163,5 +164,6 @@ https://github.com/mass10/python.note
 <!--  -->
 <!--  -->
 <!--  -->
+
 
 
