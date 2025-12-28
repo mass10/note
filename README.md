@@ -75,7 +75,11 @@ https://koriym.github.io/blog/2023/03/28/phperkaigi2023/
 
 https://note.com/sota_omura/n/nf1ac303dc56c
 
-# ウェブ製作・デザイン 編
+#### ◆対立の熱をどう扱うか
+https://note.com/abenben/n/n97930fa619ca
+> 「人権とは、すべての人が生まれながらに持つ“尊重される権利”である。」 (古賀史健)
+
+# ウェブ製作・デザイン 編 #####
 
 #### ◆remove bg https://www.remove.bg/ja
 
@@ -164,6 +168,7 @@ https://github.com/mass10/python.note
 <!--  -->
 <!--  -->
 <!--  -->
+
 
 
 
